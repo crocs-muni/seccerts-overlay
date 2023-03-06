@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "measurementTool": {
+                "type": "string"
+            },
+            "measurementAuthor": {
+                "type": "string"
+            },
+            "timeStamp": {
+                "type": "string"
+            },
+            "metaDataSha256": {
+                "type": "string"
+            },
+            "certificateIds": {
+                "type": "array",
+                "additionalItems": true,
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                    "type": "string"
+                }
+            },
+            "version": {
+                "type": "string"
+            },
+            "metaDataURI": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "measurementTool",
+            "measurementAuthor",
+            "timeStamp",
+            "metaDataSha256",
+            "certificateIds",
+            "metaDataURI"
+        ],
+        "title": "seccertsMetaDataBindingSchema",
+        "description": "Object Representing a Binding of metadata to relevant security certificate"
+    }
+}

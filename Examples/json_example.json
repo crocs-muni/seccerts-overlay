@@ -1,0 +1,25 @@
+[
+    {
+        "metaDataSha256": "b'\\x1a\\xa6\\xe5E\\xba\\xff\\xa2\\x84t\\x87\\xber\\x10E\\xf3\\xac\\t\\xc6\\x04S\\t\\xcf\\xe6\\xaf\\xae\\xc8\\xd3\\x08\\xd8\\xa9\\x87k'",
+        "timeStamp": "2023-02-22 17:08:45.842571",
+        "measurementTool": "JCAlgtest",
+        "measurementAuthor": "CROCS",
+        "certificateIds": [
+            "SERTIT-116"
+        ],
+        "metaDataURI": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/performance/fixed/Feitian_JavaCOS_3.0.4____PERFORMANCE_SYMMETRIC_ASYMMETRIC_DATAFIXED_1557852970194__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_00_64_16_06_00_00_00_00_1e.csv",
+        "version": "1.0"
+    },
+    {
+        "metaDataSha256": "b'`\\x1fI3mL`\\x8e\\x9fF(\\x93)y\\xe2\\xbe>7\\xbc\\xbbi\\x8d\\xf4\\xd8T)Q\\xb4\\xce\\x1c\\xba\\x00'",
+        "timeStamp": "2023-02-22 17:08:46.159203",
+        "measurementTool": "JCAlgtest",
+        "measurementAuthor": "CROCS",
+        "certificateIds": [
+            "NSCIB-CC-0031318-CR2",
+            "NSCIB-CC-0031318-CR3"
+        ],
+        "metaDataURI": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/performance/fixed/Infineon_SECORA_ID_X_Batch_16072021_SALES____PERFORMANCE_SYMMETRIC_ASYMMETRIC_DATAFIXED_1627630268599__3b_88_80_01_00_00_00_11_77_81_c3_00_2d_(provided_by_Thoth).csv",
+        "version": "1.0"
+    }
+]
