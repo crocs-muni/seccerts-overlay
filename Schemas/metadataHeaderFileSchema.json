@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "metadataSha256": {
+                "type": "string"
+              },
+              "timeStamp": {
+                "type": "string"
+              },
+              "measurementTool": {
+                "type": "string"
+              },
+              "measurementAuthor": {
+                "type": "string"
+              },
+              "metadataURL": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "metadataSha256",
+              "timeStamp",
+              "measurementTool",
+              "measurementAuthor",
+              "metadataURL"
+            ]
+          }
+        ]
+      },
+      "JWT": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "data",
+      "JWT"
+    ]
+  }
