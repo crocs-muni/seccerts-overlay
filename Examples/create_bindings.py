@@ -10,6 +10,8 @@ from pathlib import Path
 
 SECRET_KEY = "SOME_PROPER_KEY_HERE"
 
+LOCAL_HEADER_PATH = "C:\Dokumenty\Diplomovka\security-analytics-pipeline\metadataBindings\Headers\example_header_1.json"
+
 
 class DataIntegrityError(Exception):
     pass
@@ -48,7 +50,7 @@ metadataBindingsObj = {
         },
         {
             "certificateIDs": ["NSCIB-CC-0031318-CR2", "NSCIB-CC-0031318-CR3"],
-            "metadataHeaderURL": pathlib.Path("/home/xmoravec/Dipl/security-analytics-pipeline/metadataBindings/metadataHeaders/example_header_1.json").as_uri(),
+            "metadataHeaderURL": pathlib.Path(LOCAL_HEADER_PATH).as_uri(),
         }
     ],
     "author": "CROCS"
@@ -81,7 +83,7 @@ def getMetadataMetadata(url):
 
 
 def createMetadataHeader(metadataHeaders):
-    return {"data": list(map(lambda x: getMetadataMetadata(x["metadataURL"]) | x, metadataHeaders))}
+    return {"data": list(map(lambda x: getMetadataMetadata(x["metadataURL"]) | x, metadataHeaders)), "version": "1.0"}
 
 
 def createMetadataHeadersFile(headersData, headersPath):
@@ -107,7 +109,7 @@ def verify_jwt(url):
 
     with open(Path(headerFilePath), 'r') as f:
         header_obj = json.load(f)
-        header, signature = {"data": header_obj['data']}, header_obj['JWT']
+        header, signature = {"data": header_obj['data'], "version": header_obj['version']}, header_obj['JWT']
         decoded = jwt.decode(signature, key=SECRET_KEY, algorithms="HS256")
         if decoded != header:
             raise DataIntegrityError(
@@ -129,7 +131,8 @@ def createMetadataBinding(metadataBindingObj):
 def createBindingFile(bindingsData, bindingsFilePath):
     bindings = {
         "data": list(map(createMetadataBinding, bindingsData["bindings"])),
-        "author": bindingsData["author"]
+        "author": bindingsData["author"],
+        "version": "1.0"
     }
     with open(bindingsFilePath, 'w') as f:
         token = jwt.encode(bindings, key=SECRET_KEY, algorithm="HS256")
@@ -139,5 +142,5 @@ def createBindingFile(bindingsData, bindingsFilePath):
 
 if __name__ == "__main__":
     createMetadataHeadersFile(metadataFileHeadersObjs,
-                              "metadataHeaders/example_header.json")
+                              "headers/example_header.json")
     createBindingFile(metadataBindingsObj, "bindings/example_bindings.json")

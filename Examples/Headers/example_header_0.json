@@ -1,12 +1,13 @@
 {
     "data": [
         {
-            "metadataSha256": "b'\\x1a\\xa6\\xe5E\\xba\\xff\\xa2\\x84t\\x87\\xber\\x10E\\xf3\\xac\\t\\xc6\\x04S\\t\\xcf\\xe6\\xaf\\xae\\xc8\\xd3\\x08\\xd8\\xa9\\x87k'",
-            "timeStamp": "2023-03-21 18:49:09.684969",
+            "metadataSHA256": "b'\\x1a\\xa6\\xe5E\\xba\\xff\\xa2\\x84t\\x87\\xber\\x10E\\xf3\\xac\\t\\xc6\\x04S\\t\\xcf\\xe6\\xaf\\xae\\xc8\\xd3\\x08\\xd8\\xa9\\x87k'",
+            "timeStamp": "2023-04-12 17:45:55.590913",
             "measurementTool": "JCAlgtest",
             "measurementAuthor": "CROCS",
             "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/performance/fixed/Feitian_JavaCOS_3.0.4____PERFORMANCE_SYMMETRIC_ASYMMETRIC_DATAFIXED_1557852970194__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_00_64_16_06_00_00_00_00_1e.csv"
         }
     ],
-    "JWT": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNoYTI1NiI6ImInXFx4MWFcXHhhNlxceGU1RVxceGJhXFx4ZmZcXHhhMlxceDg0dFxceDg3XFx4YmVyXFx4MTBFXFx4ZjNcXHhhY1xcdFxceGM2XFx4MDRTXFx0XFx4Y2ZcXHhlNlxceGFmXFx4YWVcXHhjOFxceGQzXFx4MDhcXHhkOFxceGE5XFx4ODdrJyIsInRpbWVTdGFtcCI6IjIwMjMtMDMtMjEgMTg6NDk6MDkuNjg0OTY5IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJDUk9DUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9wZXJmb3JtYW5jZS9maXhlZC9GZWl0aWFuX0phdmFDT1NfMy4wLjRfX19fUEVSRk9STUFOQ0VfU1lNTUVUUklDX0FTWU1NRVRSSUNfREFUQUZJWEVEXzE1NTc4NTI5NzAxOTRfXzNiX2ZjXzE4XzAwXzAwXzgxXzMxXzgwXzQ1XzkwXzY3XzQ2XzRhXzAwXzY0XzE2XzA2XzAwXzAwXzAwXzAwXzFlLmNzdiJ9XX0.7JqeW0tZ8QjQWVSV6egdIGxhAuopCsFtnrF6FoEz63U"
+    "version": "1.0",
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4MWFcXHhhNlxceGU1RVxceGJhXFx4ZmZcXHhhMlxceDg0dFxceDg3XFx4YmVyXFx4MTBFXFx4ZjNcXHhhY1xcdFxceGM2XFx4MDRTXFx0XFx4Y2ZcXHhlNlxceGFmXFx4YWVcXHhjOFxceGQzXFx4MDhcXHhkOFxceGE5XFx4ODdrJyIsInRpbWVTdGFtcCI6IjIwMjMtMDQtMTIgMTc6NDU6NTUuNTkwOTEzIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJDUk9DUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9wZXJmb3JtYW5jZS9maXhlZC9GZWl0aWFuX0phdmFDT1NfMy4wLjRfX19fUEVSRk9STUFOQ0VfU1lNTUVUUklDX0FTWU1NRVRSSUNfREFUQUZJWEVEXzE1NTc4NTI5NzAxOTRfXzNiX2ZjXzE4XzAwXzAwXzgxXzMxXzgwXzQ1XzkwXzY3XzQ2XzRhXzAwXzY0XzE2XzA2XzAwXzAwXzAwXzAwXzFlLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.gn0nT-0yJ0nxQEUM1Bsd6d-ncSvAXXlLjF2tI1fLzrg"
 }
