@@ -1,21 +1,22 @@
 {
     "data": [
         {
-            "timeStamp": "2023-03-21 18:49:10.337700",
+            "timeStamp": "2023-04-12 18:04:32.030376",
             "certificateIDs": [
                 "SERTIT-116"
             ],
             "metadataHeaderURL": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Examples/Headers/example_header_0.json"
         },
         {
-            "timeStamp": "2023-03-21 18:49:10.342117",
+            "timeStamp": "2023-04-12 18:04:32.083464",
             "certificateIDs": [
                 "NSCIB-CC-0031318-CR2",
                 "NSCIB-CC-0031318-CR3"
             ],
-            "metadataHeaderURL": "file:///home/xmoravec/Dipl/security-analytics-pipeline/metadataBindings/metadataHeaders/example_header_1.json"
+            "metadataHeaderURL": "file:///C:/Dokumenty/Diplomovka/seccerts-overlay/Examples/Headers/example_header_1.json"
         }
     ],
     "author": "CROCS",
-    "JWT": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjpbeyJ0aW1lU3RhbXAiOiIyMDIzLTAzLTIxIDE4OjQ5OjEwLjMzNzcwMCIsImNlcnRpZmljYXRlSURzIjpbIlNFUlRJVC0xMTYiXSwibWV0YWRhdGFIZWFkZXJVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9zZWNjZXJ0cy1vdmVybGF5L21haW4vRXhhbXBsZXMvSGVhZGVycy9leGFtcGxlX2hlYWRlcl8wLmpzb24ifSx7InRpbWVTdGFtcCI6IjIwMjMtMDMtMjEgMTg6NDk6MTAuMzQyMTE3IiwiY2VydGlmaWNhdGVJRHMiOlsiTlNDSUItQ0MtMDAzMTMxOC1DUjIiLCJOU0NJQi1DQy0wMDMxMzE4LUNSMyJdLCJtZXRhZGF0YUhlYWRlclVSTCI6ImZpbGU6Ly8vaG9tZS94bW9yYXZlYy9EaXBsL3NlY3VyaXR5LWFuYWx5dGljcy1waXBlbGluZS9tZXRhZGF0YUJpbmRpbmdzL21ldGFkYXRhSGVhZGVycy9leGFtcGxlX2hlYWRlcl8xLmpzb24ifV0sImF1dGhvciI6IkNST0NTIn0.tUbFAATJQnQ_tk0ZkEgUPp2e0NEUqUqKgS1jE-hPOEo"
+    "version": "1.0",
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJ0aW1lU3RhbXAiOiIyMDIzLTA0LTEyIDE4OjA0OjMyLjAzMDM3NiIsImNlcnRpZmljYXRlSURzIjpbIlNFUlRJVC0xMTYiXSwibWV0YWRhdGFIZWFkZXJVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9zZWNjZXJ0cy1vdmVybGF5L21haW4vRXhhbXBsZXMvSGVhZGVycy9leGFtcGxlX2hlYWRlcl8wLmpzb24ifSx7InRpbWVTdGFtcCI6IjIwMjMtMDQtMTIgMTg6MDQ6MzIuMDgzNDY0IiwiY2VydGlmaWNhdGVJRHMiOlsiTlNDSUItQ0MtMDAzMTMxOC1DUjIiLCJOU0NJQi1DQy0wMDMxMzE4LUNSMyJdLCJtZXRhZGF0YUhlYWRlclVSTCI6ImZpbGU6Ly8vQzovRG9rdW1lbnR5L0RpcGxvbW92a2Evc2VjY2VydHMtb3ZlcmxheS9FeGFtcGxlcy9IZWFkZXJzL2V4YW1wbGVfaGVhZGVyXzEuanNvbiJ9XSwiYXV0aG9yIjoiQ1JPQ1MiLCJ2ZXJzaW9uIjoiMS4wIn0.gKxSdBhrVvWbs_QkY3WupMJRCc8sOvhZDd-D4lvWUL4"
 }

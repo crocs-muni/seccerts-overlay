@@ -52,77 +52,81 @@ Our primary concern are then the binding files "closer to sec-certs".
 
 ```json
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "timeStamp": {
-              "type": "string"
-            },
-            "certificateIDs": {
-              "type": "array",
-              "items": [
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": [
                 {
-                  "type": "string"
-                }
-              ]
-            },
-            "metadataHeaderURL": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "timeStamp",
-            "certificateIDs",
-            "metadataHeaderURL"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "timeStamp": {
-              "type": "string"
-            },
-            "certificateIDs": {
-              "type": "array",
-              "items": [
-                {
-                  "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "timeStamp": {
+                            "type": "string"
+                        },
+                        "certificateIDs": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "metadataHeaderURL": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "timeStamp",
+                        "certificateIDs",
+                        "metadataHeaderURL"
+                    ]
                 },
                 {
-                  "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "timeStamp": {
+                            "type": "string"
+                        },
+                        "certificateIDs": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "metadataHeaderURL": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "timeStamp",
+                        "certificateIDs",
+                        "metadataHeaderURL"
+                    ]
                 }
-              ]
-            },
-            "metadataHeaderURL": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "timeStamp",
-            "certificateIDs",
-            "metadataHeaderURL"
-          ]
+            ]
+        },
+        "author": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "JWT": {
+            "type": "string"
         }
-      ]
     },
-    "author": {
-      "type": "string"
-    },
-    "JWT": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "data",
-    "author",
-    "JWT"
-  ]
+    "required": [
+        "data",
+        "author",
+        "version",
+        "JWT"
+    ]
 }
 ```
 
@@ -137,49 +141,53 @@ Our primary concern are then the binding files "closer to sec-certs".
 
 ```json
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "data": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "metadataSHA256": {
-              "type": "string"
-            },
-            "timeStamp": {
-              "type": "string"
-            },
-            "measurementTool": {
-              "type": "string"
-            },
-            "measurementAuthor": {
-              "type": "string"
-            },
-            "metadataURL": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "metadataSha256",
-            "timeStamp",
-            "measurementTool",
-            "measurementAuthor",
-            "metadataURL"
-          ]
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "metadataSHA256": {
+                            "type": "string"
+                        },
+                        "timeStamp": {
+                            "type": "string"
+                        },
+                        "measurementTool": {
+                            "type": "string"
+                        },
+                        "measurementAuthor": {
+                            "type": "string"
+                        },
+                        "metadataURL": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "metadataSHA256",
+                        "timeStamp",
+                        "measurementTool",
+                        "measurementAuthor",
+                        "metadataURL"
+                    ]
+                }
+            ]
+        },
+        "version": {
+            "type": "string"
+        },
+        "JWT": {
+            "type": "string"
         }
-      ]
     },
-    "JWT": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "data",
-    "JWT"
-  ]
+    "required": [
+        "data",
+        "version",
+        "JWT"
+    ]
 }
 ```
 

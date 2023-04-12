@@ -141,5 +141,5 @@ def createBindingFile(bindingsData, bindingsFilePath):
 
 if __name__ == "__main__":
     createMetadataHeadersFile(metadataFileHeadersObjs,
-                              "headers/example_header.json")
-    createBindingFile(metadataBindingsObj, "bindings/example_bindings.json")
+                              "examples/headers/example_header.json")
+    createBindingFile(metadataBindingsObj, "examples/bindings/example_bindings.json")
