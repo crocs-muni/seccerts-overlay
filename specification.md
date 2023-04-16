@@ -4,7 +4,7 @@
 
 This document describes an approach/format proposed for bindings
 of third-party metadata files to relevant security certificates in sec-certs.
-The format should allow ideally for N:N bindings, with emphasis on extensibility, security, and usability aspects
+The format should allow ideally for N:N bindings, with emphasis on extensibility, security, and usability aspects.
 
 ## High-level design and motivation
 
@@ -31,15 +31,18 @@ Another use case in which this design might be useful is when trying to create a
 
 Our primary concern are then the binding files "closer to sec-certs".
 
+![](Diagrams\vis.drawio.jpg "Format Visualization")
+
 ## Bindings File Format
 
-- *The newly proposed bindings file format is inspired by and utilizes the following standards and technologies. However, because of the absence of a format that would fully satisfy our requirements and fit our needs a new format was proposed.*
-    - *https://datatracker.ietf.org/doc/rfc5544/ RFC inspiring the JSON format*
-    - *https://www.rfc-editor.org/rfc/rfc7519?fbclid=IwAR00dHM3BLg1umlJY4KDADvRXOO2gDLfuHs676MlyJ4OYFPnr1BvI2ofyxk JWT RFC*
-    - *https://datatracker.ietf.org/doc/html/rfc7515?fbclid=IwAR10DSgCnUH6_YS9MLmHRHTv5nPOcpJ_GkQN_coEsZ-I4DajYVX9jVQrkXs#appendix-A.4 JWS RFC*
+
+- The newly proposed bindings file format is inspired by and utilizes the following standards and technologies. However, because of the absence of a format that would fully satisfy our requirements and fit our needs a new format was proposed.
+    - https://datatracker.ietf.org/doc/rfc5544/ RFC inspiring the JSON format
+    - https://www.rfc-editor.org/rfc/rfc7519?fbclid=IwAR00dHM3BLg1umlJY4KDADvRXOO2gDLfuHs676MlyJ4OYFPnr1BvI2ofyxk JWT RFC
+    - https://datatracker.ietf.org/doc/html/rfc7515?fbclid=IwAR10DSgCnUH6_YS9MLmHRHTv5nPOcpJ_GkQN_coEsZ-I4DajYVX9jVQrkXs#appendix-A.4 JWS RFC
 
 
-- 0: An Object containing the "data" object, and the "JWT" and "author" strings
+- 0: An Object containing the "data" object, and the "JWT", "version" and "author" strings
     - 1: "data": An Array of Binding Objects (Allows to express N:N relationships/bindings)
         - 2: Binding Object (Representing one binding of metadata file 1:N certificates)
             - Compulsory attributes: bindingAuthor, timestamp, certificateIDs, metadataHeaderURL
@@ -132,7 +135,7 @@ Our primary concern are then the binding files "closer to sec-certs".
 
 ## Metadata File Header Example Format
 
-- 0: An Object containing the "data" object, and its "JWT"
+- 0: An Object containing the "data" object, "version" string and its "JWT"
     - 1: "data": An Array of objects representing the measurements, contains relevant metadata about the measurements and a reference to the metadata file
         - 2: Measurement Object
             - Compulsory attributes: metadataSHA256, timestamp, measurementTool, measurementAuthor, metadataURL
