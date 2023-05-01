@@ -1,1 +1,13 @@
-{"data": [{"metadataSHA256": "b'\\xe1\\x00\\xb5\\x80\\x8f\\xae\\x1d\\xd1\\x8aM:\\xc6;(\\xefIE.\\x92d RQ\\xcd\\xc7\\xf6L\\xd4tQR;'", "timeStamp": "2023-05-01 23:35:03.380516", "measurementTool": "JCAlgtest", "measurementAuthor": "", "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Oberthur_ID-One_Cosmo_64_RSA_v5.4_AIDSUPPORT_3B7B1800000031C06477E91000019000.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZTFcXHgwMFxceGI1XFx4ODBcXHg4ZlxceGFlXFx4MWRcXHhkMVxceDhhTTpcXHhjNjsoXFx4ZWZJRS5cXHg5MmQgUlFcXHhjZFxceGM3XFx4ZjZMXFx4ZDR0UVI7JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDMuMzgwNTE2IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL09iZXJ0aHVyX0lELU9uZV9Db3Ntb182NF9SU0FfdjUuNF9BSURTVVBQT1JUXzNCN0IxODAwMDAwMDMxQzA2NDc3RTkxMDAwMDE5MDAwLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.HCoonZa7z22WCzcQWRe4in_BUGD44ypeO-YeqEorSvU"}
+{
+  "data": [
+    {
+      "metadataSHA256": "b'\\xe1\\x00\\xb5\\x80\\x8f\\xae\\x1d\\xd1\\x8aM:\\xc6;(\\xefIE.\\x92d RQ\\xcd\\xc7\\xf6L\\xd4tQR;'",
+      "timeStamp": "2023-05-01 23:35:03.380516",
+      "measurementTool": "JCAlgtest",
+      "measurementAuthor": "",
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Oberthur_ID-One_Cosmo_64_RSA_v5.4_AIDSUPPORT_3B7B1800000031C06477E91000019000.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZTFcXHgwMFxceGI1XFx4ODBcXHg4ZlxceGFlXFx4MWRcXHhkMVxceDhhTTpcXHhjNjsoXFx4ZWZJRS5cXHg5MmQgUlFcXHhjZFxceGM3XFx4ZjZMXFx4ZDR0UVI7JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDMuMzgwNTE2IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL09iZXJ0aHVyX0lELU9uZV9Db3Ntb182NF9SU0FfdjUuNF9BSURTVVBQT1JUXzNCN0IxODAwMDAwMDMxQzA2NDc3RTkxMDAwMDE5MDAwLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.HCoonZa7z22WCzcQWRe4in_BUGD44ypeO-YeqEorSvU"
+}

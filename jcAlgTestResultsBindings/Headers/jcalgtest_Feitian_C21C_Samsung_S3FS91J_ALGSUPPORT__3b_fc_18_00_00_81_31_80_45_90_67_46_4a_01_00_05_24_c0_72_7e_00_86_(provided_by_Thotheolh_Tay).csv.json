@@ -1,1 +1,13 @@
-{"data": [{"metadataSHA256": "b'=W\\x00\\x1f\\xf9\\x15\\x061\\xec<\\xff\\xbb\\x93\\x06\\xd1\\xce\\xf11\\xe9\\x9b\\x86v\\xf5d4\\xdfL\\xa5;\\xee\\xa3\"'", "timeStamp": "2023-05-01 23:35:02.887461", "measurementTool": "JCAlgtest", "measurementAuthor": "", "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Feitian_C21C_Samsung_S3FS91J_ALGSUPPORT__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_01_00_05_24_c0_72_7e_00_86_(provided_by_Thotheolh_Tay).csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInPVdcXHgwMFxceDFmXFx4ZjlcXHgxNVxceDA2MVxceGVjPFxceGZmXFx4YmJcXHg5M1xceDA2XFx4ZDFcXHhjZVxceGYxMVxceGU5XFx4OWJcXHg4NnZcXHhmNWQ0XFx4ZGZMXFx4YTU7XFx4ZWVcXHhhM1wiJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDIuODg3NDYxIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9GZWl0aWFuX0MyMUNfU2Ftc3VuZ19TM0ZTOTFKX0FMR1NVUFBPUlRfXzNiX2ZjXzE4XzAwXzAwXzgxXzMxXzgwXzQ1XzkwXzY3XzQ2XzRhXzAxXzAwXzA1XzI0X2MwXzcyXzdlXzAwXzg2Xyhwcm92aWRlZF9ieV9UaG90aGVvbGhfVGF5KS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.7Psd7L4FlTPg3Da_-YRSaib9f-nvAma6ujzH7wD76TA"}
+{
+  "data": [
+    {
+      "metadataSHA256": "b'=W\\x00\\x1f\\xf9\\x15\\x061\\xec<\\xff\\xbb\\x93\\x06\\xd1\\xce\\xf11\\xe9\\x9b\\x86v\\xf5d4\\xdfL\\xa5;\\xee\\xa3\"'",
+      "timeStamp": "2023-05-01 23:35:02.887461",
+      "measurementTool": "JCAlgtest",
+      "measurementAuthor": "",
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Feitian_C21C_Samsung_S3FS91J_ALGSUPPORT__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_01_00_05_24_c0_72_7e_00_86_(provided_by_Thotheolh_Tay).csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInPVdcXHgwMFxceDFmXFx4ZjlcXHgxNVxceDA2MVxceGVjPFxceGZmXFx4YmJcXHg5M1xceDA2XFx4ZDFcXHhjZVxceGYxMVxceGU5XFx4OWJcXHg4NnZcXHhmNWQ0XFx4ZGZMXFx4YTU7XFx4ZWVcXHhhM1wiJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDIuODg3NDYxIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9GZWl0aWFuX0MyMUNfU2Ftc3VuZ19TM0ZTOTFKX0FMR1NVUFBPUlRfXzNiX2ZjXzE4XzAwXzAwXzgxXzMxXzgwXzQ1XzkwXzY3XzQ2XzRhXzAxXzAwXzA1XzI0X2MwXzcyXzdlXzAwXzg2Xyhwcm92aWRlZF9ieV9UaG90aGVvbGhfVGF5KS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.7Psd7L4FlTPg3Da_-YRSaib9f-nvAma6ujzH7wD76TA"
+}

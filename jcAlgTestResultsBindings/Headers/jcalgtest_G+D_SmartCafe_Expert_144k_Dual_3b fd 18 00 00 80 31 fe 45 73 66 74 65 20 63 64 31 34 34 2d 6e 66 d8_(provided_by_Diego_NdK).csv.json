@@ -1,1 +1,13 @@
-{"data": [{"metadataSHA256": "b'\\xd6v\\xd5\\x03\\xe0\\x8b\\x8d\\xe3\\xaf\\xc4\\x056\\xf1\\x92\\xb3\\xbd\\xaci\\xcf\"\\xe8\\xd7\\xb7k\\xc2F:z\\xa3\\xc1\\xa1\\x8c'", "timeStamp": "2023-05-01 23:35:03.075115", "measurementTool": "JCAlgtest", "measurementAuthor": "", "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/G%2BD_SmartCafe_Expert_144k_Dual_3b%20fd%2018%2000%2000%2080%2031%20fe%2045%2073%2066%2074%2065%2020%2063%2064%2031%2034%2034%202d%206e%2066%20d8_(provided_by_Diego_NdK).csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZDZ2XFx4ZDVcXHgwM1xceGUwXFx4OGJcXHg4ZFxceGUzXFx4YWZcXHhjNFxceDA1NlxceGYxXFx4OTJcXHhiM1xceGJkXFx4YWNpXFx4Y2ZcIlxceGU4XFx4ZDdcXHhiN2tcXHhjMkY6elxceGEzXFx4YzFcXHhhMVxceDhjJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDMuMDc1MTE1IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9HJTJCRF9TbWFydENhZmVfRXhwZXJ0XzE0NGtfRHVhbF8zYiUyMGZkJTIwMTglMjAwMCUyMDAwJTIwODAlMjAzMSUyMGZlJTIwNDUlMjA3MyUyMDY2JTIwNzQlMjA2NSUyMDIwJTIwNjMlMjA2NCUyMDMxJTIwMzQlMjAzNCUyMDJkJTIwNmUlMjA2NiUyMGQ4Xyhwcm92aWRlZF9ieV9EaWVnb19OZEspLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.U2g_ycAKy9nB5S1lx4vHYrCug4Y1c7Dz4FFzncgak-0"}
+{
+  "data": [
+    {
+      "metadataSHA256": "b'\\xd6v\\xd5\\x03\\xe0\\x8b\\x8d\\xe3\\xaf\\xc4\\x056\\xf1\\x92\\xb3\\xbd\\xaci\\xcf\"\\xe8\\xd7\\xb7k\\xc2F:z\\xa3\\xc1\\xa1\\x8c'",
+      "timeStamp": "2023-05-01 23:35:03.075115",
+      "measurementTool": "JCAlgtest",
+      "measurementAuthor": "",
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/G%2BD_SmartCafe_Expert_144k_Dual_3b%20fd%2018%2000%2000%2080%2031%20fe%2045%2073%2066%2074%2065%2020%2063%2064%2031%2034%2034%202d%206e%2066%20d8_(provided_by_Diego_NdK).csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZDZ2XFx4ZDVcXHgwM1xceGUwXFx4OGJcXHg4ZFxceGUzXFx4YWZcXHhjNFxceDA1NlxceGYxXFx4OTJcXHhiM1xceGJkXFx4YWNpXFx4Y2ZcIlxceGU4XFx4ZDdcXHhiN2tcXHhjMkY6elxceGEzXFx4YzFcXHhhMVxceDhjJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDMuMDc1MTE1IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9HJTJCRF9TbWFydENhZmVfRXhwZXJ0XzE0NGtfRHVhbF8zYiUyMGZkJTIwMTglMjAwMCUyMDAwJTIwODAlMjAzMSUyMGZlJTIwNDUlMjA3MyUyMDY2JTIwNzQlMjA2NSUyMDIwJTIwNjMlMjA2NCUyMDMxJTIwMzQlMjAzNCUyMDJkJTIwNmUlMjA2NiUyMGQ4Xyhwcm92aWRlZF9ieV9EaWVnb19OZEspLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.U2g_ycAKy9nB5S1lx4vHYrCug4Y1c7Dz4FFzncgak-0"
+}

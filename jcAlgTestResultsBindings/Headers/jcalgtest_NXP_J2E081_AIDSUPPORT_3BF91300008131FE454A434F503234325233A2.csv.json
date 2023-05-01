@@ -1,1 +1,13 @@
-{"data": [{"metadataSHA256": "b'\\xf9\\x1dh\\xcf\\x00l\\xea\\xafv\\xb1O\\xd3c\\x81\\xa1\\xfa\\xfe\\xa6\\xe3\\x11}@\\xa88For\\xb5eu\\xe9\\x17'", "timeStamp": "2023-05-01 23:35:05.220479", "measurementTool": "JCAlgtest", "measurementAuthor": "", "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_J2E081_AIDSUPPORT_3BF91300008131FE454A434F503234325233A2.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZjlcXHgxZGhcXHhjZlxceDAwbFxceGVhXFx4YWZ2XFx4YjFPXFx4ZDNjXFx4ODFcXHhhMVxceGZhXFx4ZmVcXHhhNlxceGUzXFx4MTF9QFxceGE4OEZvclxceGI1ZXVcXHhlOVxceDE3JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDUuMjIwNDc5IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL05YUF9KMkUwODFfQUlEU1VQUE9SVF8zQkY5MTMwMDAwODEzMUZFNDU0QTQzNEY1MDMyMzQzMjUyMzNBMi5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.PnP7SnpzaQ3hB-AMdx5GA15mFkY8nxQJP5yI8PaRAFM"}
+{
+  "data": [
+    {
+      "metadataSHA256": "b'\\xf9\\x1dh\\xcf\\x00l\\xea\\xafv\\xb1O\\xd3c\\x81\\xa1\\xfa\\xfe\\xa6\\xe3\\x11}@\\xa88For\\xb5eu\\xe9\\x17'",
+      "timeStamp": "2023-05-01 23:35:05.220479",
+      "measurementTool": "JCAlgtest",
+      "measurementAuthor": "",
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_J2E081_AIDSUPPORT_3BF91300008131FE454A434F503234325233A2.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZjlcXHgxZGhcXHhjZlxceDAwbFxceGVhXFx4YWZ2XFx4YjFPXFx4ZDNjXFx4ODFcXHhhMVxceGZhXFx4ZmVcXHhhNlxceGUzXFx4MTF9QFxceGE4OEZvclxceGI1ZXVcXHhlOVxceDE3JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDUuMjIwNDc5IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL05YUF9KMkUwODFfQUlEU1VQUE9SVF8zQkY5MTMwMDAwODEzMUZFNDU0QTQzNEY1MDMyMzQzMjUyMzNBMi5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.PnP7SnpzaQ3hB-AMdx5GA15mFkY8nxQJP5yI8PaRAFM"
+}

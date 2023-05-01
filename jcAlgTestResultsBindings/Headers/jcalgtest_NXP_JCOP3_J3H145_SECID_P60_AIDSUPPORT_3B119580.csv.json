@@ -1,1 +1,13 @@
-{"data": [{"metadataSHA256": "b'E\\x9e)\\xde\\xc9\\x94\\x12\\xb6]\\xaf\\xfc?t\\x7f\"\\xa9\\x90\\x18U`\\x1a,\\xe1<|\\x19\\xb2\\xb44\\xc0Ln'", "timeStamp": "2023-05-01 23:35:06.354215", "measurementTool": "JCAlgtest", "measurementAuthor": "", "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP3_J3H145_SECID_P60_AIDSUPPORT_3B119580.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInRVxceDllKVxceGRlXFx4YzlcXHg5NFxceDEyXFx4YjZdXFx4YWZcXHhmYz90XFx4N2ZcIlxceGE5XFx4OTBcXHgxOFVgXFx4MWEsXFx4ZTE8fFxceDE5XFx4YjJcXHhiNDRcXHhjMExuJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDYuMzU0MjE1IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL05YUF9KQ09QM19KM0gxNDVfU0VDSURfUDYwX0FJRFNVUFBPUlRfM0IxMTk1ODAuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.VhA8doJF_8vs_rPfO7vvn43_7tb0-8D8jGwEVpfSHeI"}
+{
+  "data": [
+    {
+      "metadataSHA256": "b'E\\x9e)\\xde\\xc9\\x94\\x12\\xb6]\\xaf\\xfc?t\\x7f\"\\xa9\\x90\\x18U`\\x1a,\\xe1<|\\x19\\xb2\\xb44\\xc0Ln'",
+      "timeStamp": "2023-05-01 23:35:06.354215",
+      "measurementTool": "JCAlgtest",
+      "measurementAuthor": "",
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP3_J3H145_SECID_P60_AIDSUPPORT_3B119580.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInRVxceDllKVxceGRlXFx4YzlcXHg5NFxceDEyXFx4YjZdXFx4YWZcXHhmYz90XFx4N2ZcIlxceGE5XFx4OTBcXHgxOFVgXFx4MWEsXFx4ZTE8fFxceDE5XFx4YjJcXHhiNDRcXHhjMExuJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6MDYuMzU0MjE1IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL05YUF9KQ09QM19KM0gxNDVfU0VDSURfUDYwX0FJRFNVUFBPUlRfM0IxMTk1ODAuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.VhA8doJF_8vs_rPfO7vvn43_7tb0-8D8jGwEVpfSHeI"
+}
