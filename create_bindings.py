@@ -111,7 +111,7 @@ def createMetadataHeadersFile(headersData, headersPath):
         f.write(json.dumps(headers))
 
 
-def verify_jwt(url):
+def verify_header_jwt(url):
     # print(f"verifying jwt of: {url}")
     headerFilePath = url
     if not is_local(url):
@@ -135,7 +135,7 @@ def verify_jwt(url):
 
 
 def getBindingMetadata(url):
-    verify_jwt(url)
+    verify_header_jwt(url)
     return {
         "timeStamp": datetime.now().__str__(),
     }
