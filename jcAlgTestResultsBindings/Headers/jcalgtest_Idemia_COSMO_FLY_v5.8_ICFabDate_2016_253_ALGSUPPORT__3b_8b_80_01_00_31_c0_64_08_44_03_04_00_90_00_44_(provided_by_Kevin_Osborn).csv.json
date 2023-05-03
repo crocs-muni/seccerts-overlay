@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b\"\\xef'\\x9fJi\\x8c\\xae\\x1b\\xa1\\xce\\x04\\x03/\\x97\\xdf\\xe8\\xd9\\xa1\\xaf*\\x15\\x8bf:d\\xb0\\x12\\xbemA|\\xae\"",
-      "timeStamp": "2023-05-01 23:35:03.884969",
+      "timeStamp": "2023-05-03 22:48:19.670817",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "Kevin Osborn",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Idemia_COSMO_FLY_v5.8_ICFabDate_2016_253_ALGSUPPORT__3b_8b_80_01_00_31_c0_64_08_44_03_04_00_90_00_44_(provided_by_Kevin_Osborn).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImJcIlxceGVmJ1xceDlmSmlcXHg4Y1xceGFlXFx4MWJcXHhhMVxceGNlXFx4MDRcXHgwMy9cXHg5N1xceGRmXFx4ZThcXHhkOVxceGExXFx4YWYqXFx4MTVcXHg4YmY6ZFxceGIwXFx4MTJcXHhiZW1BfFxceGFlXCIiLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAxIDIzOjM1OjAzLjg4NDk2OSIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvSWRlbWlhX0NPU01PX0ZMWV92NS44X0lDRmFiRGF0ZV8yMDE2XzI1M19BTEdTVVBQT1JUX18zYl84Yl84MF8wMV8wMF8zMV9jMF82NF8wOF80NF8wM18wNF8wMF85MF8wMF80NF8ocHJvdmlkZWRfYnlfS2V2aW5fT3Nib3JuKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.lmMzrX8Rr_0PBMRiIwTBirUXHSjFoXkr28pfvT0-5YY"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImJcIlxceGVmJ1xceDlmSmlcXHg4Y1xceGFlXFx4MWJcXHhhMVxceGNlXFx4MDRcXHgwMy9cXHg5N1xceGRmXFx4ZThcXHhkOVxceGExXFx4YWYqXFx4MTVcXHg4YmY6ZFxceGIwXFx4MTJcXHhiZW1BfFxceGFlXCIiLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAzIDIyOjQ4OjE5LjY3MDgxNyIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiS2V2aW4gT3Nib3JuIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvSWRlbWlhX0NPU01PX0ZMWV92NS44X0lDRmFiRGF0ZV8yMDE2XzI1M19BTEdTVVBQT1JUX18zYl84Yl84MF8wMV8wMF8zMV9jMF82NF8wOF80NF8wM18wNF8wMF85MF8wMF80NF8ocHJvdmlkZWRfYnlfS2V2aW5fT3Nib3JuKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.wrfMfQBeuDQMZh6gc47iWT9VYLliFJGaTf5tPW3vXb4"
 }

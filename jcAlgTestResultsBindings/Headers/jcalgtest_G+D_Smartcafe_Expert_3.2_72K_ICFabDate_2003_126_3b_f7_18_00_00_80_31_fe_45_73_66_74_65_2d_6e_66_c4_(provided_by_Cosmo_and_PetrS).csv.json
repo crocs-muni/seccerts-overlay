@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'-\\x1abl\\xed\\xaf\\xbb\\x9f)R\\xc2\\x0baZ\\x97\\x9e)\\xcc\\x82R\\r\\xca\\xb9c\\x93\\x00P\\xcb\\xba\\xc69\\x8b'",
-      "timeStamp": "2023-05-01 23:35:03.773973",
+      "timeStamp": "2023-05-03 22:48:19.396255",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "Cosmo and PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/G%2BD_Smartcafe_Expert_3.2_72K_ICFabDate_2003_126_3b_f7_18_00_00_80_31_fe_45_73_66_74_65_2d_6e_66_c4_(provided_by_Cosmo_and_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInLVxceDFhYmxcXHhlZFxceGFmXFx4YmJcXHg5ZilSXFx4YzJcXHgwYmFaXFx4OTdcXHg5ZSlcXHhjY1xceDgyUlxcclxceGNhXFx4YjljXFx4OTNcXHgwMFBcXHhjYlxceGJhXFx4YzY5XFx4OGInIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMSAyMzozNTowMy43NzM5NzMiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IiIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0clMkJEX1NtYXJ0Y2FmZV9FeHBlcnRfMy4yXzcyS19JQ0ZhYkRhdGVfMjAwM18xMjZfM2JfZjdfMThfMDBfMDBfODBfMzFfZmVfNDVfNzNfNjZfNzRfNjVfMmRfNmVfNjZfYzRfKHByb3ZpZGVkX2J5X0Nvc21vX2FuZF9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.ZYp3qc9b0ZhmWnaEupVBqOEquyFq1zGet8u-gHOf7V0"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInLVxceDFhYmxcXHhlZFxceGFmXFx4YmJcXHg5ZilSXFx4YzJcXHgwYmFaXFx4OTdcXHg5ZSlcXHhjY1xceDgyUlxcclxceGNhXFx4YjljXFx4OTNcXHgwMFBcXHhjYlxceGJhXFx4YzY5XFx4OGInIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMyAyMjo0ODoxOS4zOTYyNTUiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IkNvc21vIGFuZCBQZXRyUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0clMkJEX1NtYXJ0Y2FmZV9FeHBlcnRfMy4yXzcyS19JQ0ZhYkRhdGVfMjAwM18xMjZfM2JfZjdfMThfMDBfMDBfODBfMzFfZmVfNDVfNzNfNjZfNzRfNjVfMmRfNmVfNjZfYzRfKHByb3ZpZGVkX2J5X0Nvc21vX2FuZF9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.DEIKQnlyf1wdVywkFckyWiUsqQ-2tZI8j9UG83-1mzE"
 }

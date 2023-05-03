@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\x90e\\x93W\\x80\\x15\\x07V\\x8c\\x86\\x0fE\\xeb[\\x15\\xba\\xfay\\xc4S\\x895\\xc6\\x8f\\xc4>\\xaeY(\\xfc\\xcd\\x14'",
-      "timeStamp": "2023-05-01 23:35:43.431481",
+      "timeStamp": "2023-05-03 22:49:00.779764",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/G%2BD_Smart_Cafe_Expert_4.x_V2_ICFabDate_2007_079_ALGSUPPORT__3b_f8_18_00_00_80_31_fe_45_00_73_c8_40_13_00_90_00_92_(provided_by_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4OTBlXFx4OTNXXFx4ODBcXHgxNVxceDA3VlxceDhjXFx4ODZcXHgwZkVcXHhlYltcXHgxNVxceGJhXFx4ZmF5XFx4YzRTXFx4ODk1XFx4YzZcXHg4ZlxceGM0PlxceGFlWShcXHhmY1xceGNkXFx4MTQnIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMSAyMzozNTo0My40MzE0ODEiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IiIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0clMkJEX1NtYXJ0X0NhZmVfRXhwZXJ0XzQueF9WMl9JQ0ZhYkRhdGVfMjAwN18wNzlfQUxHU1VQUE9SVF9fM2JfZjhfMThfMDBfMDBfODBfMzFfZmVfNDVfMDBfNzNfYzhfNDBfMTNfMDBfOTBfMDBfOTJfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.k1XClJ5G3JTZ0Co0kdiPKupa6ZYWY9G7ixwAxzLRElg"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4OTBlXFx4OTNXXFx4ODBcXHgxNVxceDA3VlxceDhjXFx4ODZcXHgwZkVcXHhlYltcXHgxNVxceGJhXFx4ZmF5XFx4YzRTXFx4ODk1XFx4YzZcXHg4ZlxceGM0PlxceGFlWShcXHhmY1xceGNkXFx4MTQnIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMyAyMjo0OTowMC43Nzk3NjQiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IlBldHJTIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvRyUyQkRfU21hcnRfQ2FmZV9FeHBlcnRfNC54X1YyX0lDRmFiRGF0ZV8yMDA3XzA3OV9BTEdTVVBQT1JUX18zYl9mOF8xOF8wMF8wMF84MF8zMV9mZV80NV8wMF83M19jOF80MF8xM18wMF85MF8wMF85Ml8ocHJvdmlkZWRfYnlfUGV0clMpLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.8wGmg2VHEvdBpfQmjtd-kxka-w87Kww_kqk_ltWayjA"
 }

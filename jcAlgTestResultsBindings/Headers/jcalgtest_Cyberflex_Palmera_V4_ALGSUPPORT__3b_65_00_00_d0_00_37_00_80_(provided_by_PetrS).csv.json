@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xac;\\xd0\\xa2nb\\x97+m5\\xd5\\xce\\xd0\\xa3\\x06q\\xf8\\xd7\\xc5\\xb4B\\xec\\x82\\xf3\\x8b(\\x95\\xa3\\x9d\\xa9\\xcd9'",
-      "timeStamp": "2023-05-01 23:35:44.114971",
+      "timeStamp": "2023-05-03 22:49:01.598682",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/only_cplc/Cyberflex_Palmera_V4_ALGSUPPORT__3b_65_00_00_d0_00_37_00_80_(provided_by_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4YWM7XFx4ZDBcXHhhMm5iXFx4OTcrbTVcXHhkNVxceGNlXFx4ZDBcXHhhM1xceDA2cVxceGY4XFx4ZDdcXHhjNVxceGI0QlxceGVjXFx4ODJcXHhmM1xceDhiKFxceDk1XFx4YTNcXHg5ZFxceGE5XFx4Y2Q5JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDEgMjM6MzU6NDQuMTE0OTcxIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9vbmx5X2NwbGMvQ3liZXJmbGV4X1BhbG1lcmFfVjRfQUxHU1VQUE9SVF9fM2JfNjVfMDBfMDBfZDBfMDBfMzdfMDBfODBfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.HDFizjw_aezoZcdDckEdUMQRc54qQqoUqSzlZeyxjHQ"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4YWM7XFx4ZDBcXHhhMm5iXFx4OTcrbTVcXHhkNVxceGNlXFx4ZDBcXHhhM1xceDA2cVxceGY4XFx4ZDdcXHhjNVxceGI0QlxceGVjXFx4ODJcXHhmM1xceDhiKFxceDk1XFx4YTNcXHg5ZFxceGE5XFx4Y2Q5JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDMgMjI6NDk6MDEuNTk4NjgyIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJQZXRyUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL29ubHlfY3BsYy9DeWJlcmZsZXhfUGFsbWVyYV9WNF9BTEdTVVBQT1JUX18zYl82NV8wMF8wMF9kMF8wMF8zN18wMF84MF8ocHJvdmlkZWRfYnlfUGV0clMpLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.doSQrummYtnHlS0sd6ita23CMskrAXMNpUIn5fFkwwI"
 }

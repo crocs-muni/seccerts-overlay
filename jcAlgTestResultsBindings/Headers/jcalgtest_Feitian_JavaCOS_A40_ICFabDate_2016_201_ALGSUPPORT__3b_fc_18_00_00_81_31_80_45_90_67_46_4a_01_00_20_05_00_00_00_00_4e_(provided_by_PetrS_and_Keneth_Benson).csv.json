@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xcd\\xb4\\x10\\xb5\\x7f\\x93\\xa1\\x030\\xe5\\x92mc\\x16\\xe8\\x92\\x7f\\x9d[\\xc6\\x84\\x83\\xeb\\xbf\\x8a\\xd4\\xb6V\\xdd\\r\\xd4H'",
-      "timeStamp": "2023-05-01 23:35:57.039994",
+      "timeStamp": "2023-05-03 22:49:15.065580",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "PetrS and Keneth Benson",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Feitian_JavaCOS_A40_ICFabDate_2016_201_ALGSUPPORT__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_01_00_20_05_00_00_00_00_4e_(provided_by_PetrS_and_Keneth_Benson).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4Y2RcXHhiNFxceDEwXFx4YjVcXHg3ZlxceDkzXFx4YTFcXHgwMzBcXHhlNVxceDkybWNcXHgxNlxceGU4XFx4OTJcXHg3ZlxceDlkW1xceGM2XFx4ODRcXHg4M1xceGViXFx4YmZcXHg4YVxceGQ0XFx4YjZWXFx4ZGRcXHJcXHhkNEgnIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMSAyMzozNTo1Ny4wMzk5OTQiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IiIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0ZlaXRpYW5fSmF2YUNPU19BNDBfSUNGYWJEYXRlXzIwMTZfMjAxX0FMR1NVUFBPUlRfXzNiX2ZjXzE4XzAwXzAwXzgxXzMxXzgwXzQ1XzkwXzY3XzQ2XzRhXzAxXzAwXzIwXzA1XzAwXzAwXzAwXzAwXzRlXyhwcm92aWRlZF9ieV9QZXRyU19hbmRfS2VuZXRoX0JlbnNvbikuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.dUMR3VfluPKNapkrbnhugNeFP0Gl6WnoW3dgTWCVwlY"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4Y2RcXHhiNFxceDEwXFx4YjVcXHg3ZlxceDkzXFx4YTFcXHgwMzBcXHhlNVxceDkybWNcXHgxNlxceGU4XFx4OTJcXHg3ZlxceDlkW1xceGM2XFx4ODRcXHg4M1xceGViXFx4YmZcXHg4YVxceGQ0XFx4YjZWXFx4ZGRcXHJcXHhkNEgnIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMyAyMjo0OToxNS4wNjU1ODAiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IlBldHJTIGFuZCBLZW5ldGggQmVuc29uIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvRmVpdGlhbl9KYXZhQ09TX0E0MF9JQ0ZhYkRhdGVfMjAxNl8yMDFfQUxHU1VQUE9SVF9fM2JfZmNfMThfMDBfMDBfODFfMzFfODBfNDVfOTBfNjdfNDZfNGFfMDFfMDBfMjBfMDVfMDBfMDBfMDBfMDBfNGVfKHByb3ZpZGVkX2J5X1BldHJTX2FuZF9LZW5ldGhfQmVuc29uKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.bpsY5Vbdg3L95EFCEpJmcpRwyptnBuCDCMnGhYC77kA"
 }

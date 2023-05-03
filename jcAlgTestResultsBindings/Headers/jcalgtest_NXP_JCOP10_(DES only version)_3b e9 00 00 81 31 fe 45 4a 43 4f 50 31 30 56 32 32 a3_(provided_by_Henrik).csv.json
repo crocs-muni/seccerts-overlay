@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xdb\\xcb\\xec\\x11\\n\\x84\\xed\\x80#\\xb4\\xed\\x9f[\\x02z\\xc6\\xfcpW(3\\xb6\\x7f\\xe2\\xf8o2@o\\x9bB|'",
-      "timeStamp": "2023-05-01 23:35:31.996819",
+      "timeStamp": "2023-05-03 22:48:49.410673",
       "measurementTool": "JCAlgtest",
-      "measurementAuthor": "",
+      "measurementAuthor": "Henrik",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/NXP_JCOP10_(DES%20only%20version)_3b%20e9%2000%2000%2081%2031%20fe%2045%204a%2043%204f%2050%2031%2030%2056%2032%2032%20a3_(provided_by_Henrik).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZGJcXHhjYlxceGVjXFx4MTFcXG5cXHg4NFxceGVkXFx4ODAjXFx4YjRcXHhlZFxceDlmW1xceDAyelxceGM2XFx4ZmNwVygzXFx4YjZcXHg3ZlxceGUyXFx4ZjhvMkBvXFx4OWJCfCciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAxIDIzOjM1OjMxLjk5NjgxOSIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTlhQX0pDT1AxMF8oREVTJTIwb25seSUyMHZlcnNpb24pXzNiJTIwZTklMjAwMCUyMDAwJTIwODElMjAzMSUyMGZlJTIwNDUlMjA0YSUyMDQzJTIwNGYlMjA1MCUyMDMxJTIwMzAlMjA1NiUyMDMyJTIwMzIlMjBhM18ocHJvdmlkZWRfYnlfSGVucmlrKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.nBeJ2SrBtd8V75Uj7AXH7nvmjQHfWI9GDgqBU1z4xdM"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZGJcXHhjYlxceGVjXFx4MTFcXG5cXHg4NFxceGVkXFx4ODAjXFx4YjRcXHhlZFxceDlmW1xceDAyelxceGM2XFx4ZmNwVygzXFx4YjZcXHg3ZlxceGUyXFx4ZjhvMkBvXFx4OWJCfCciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAzIDIyOjQ4OjQ5LjQxMDY3MyIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiSGVucmlrIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTlhQX0pDT1AxMF8oREVTJTIwb25seSUyMHZlcnNpb24pXzNiJTIwZTklMjAwMCUyMDAwJTIwODElMjAzMSUyMGZlJTIwNDUlMjA0YSUyMDQzJTIwNGYlMjA1MCUyMDMxJTIwMzAlMjA1NiUyMDMyJTIwMzIlMjBhM18ocHJvdmlkZWRfYnlfSGVucmlrKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.LgHoHbJrodjlKjpq7wxkH8jiZenlsfSqlhIHKcnOdEE"
 }
