@@ -1,3 +1,7 @@
+import json
+from urllib.parse import urlparse
+import requests
+
 JCALGTEST_RESULT_FILE_NAMES = [
     "ACS_ACOSJ_40K_AIDSUPPORT_3B69000241434F534A76313031.csv",
     "Athena_IDProtect_AIDSUPPORT_3BD518FF8191FE1FC38073C8211309.csv",
@@ -240,17 +244,6 @@ xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx_(provided_by_Cosmo).
     "Gemplus_GemXpresso_211PK_ALGSUPPORT__3f_6d_00_00_80_31_80_65_b0_05_01_02_5e_83_00_90_003f_6d_00_00_80_31_80_65_b0_05_01_02_5e_83_00_90_00.csv",
 ]
 
-import hashlib
-import pathlib
-import json
-from typing import List
-import jwt
-import urllib.request
-import requests
-from datetime import datetime
-from urllib.parse import urlparse, unquote
-from os.path import exists
-from pathlib import Path
 
 JCALGTEST_GITHUB_RESULTS_URLS = [
     "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/aid",
@@ -259,8 +252,8 @@ JCALGTEST_GITHUB_RESULTS_URLS = [
     "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/performance/variable",
     "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/results",
     "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/results/NXP_JCOP3_J3H145g_P60",
-    "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/results/only_cplc"
-]
+    "https://github.com/crocs-muni/jcalgtest_results/tree/main/javacard/Profiles/results/only_cplc"]
+
 
 def github_url_to_api(url: str) -> str:
     """
@@ -272,23 +265,45 @@ def github_url_to_api(url: str) -> str:
         api_url += f"?{parsed_url.query}"
     return api_url
 
+
+def get_author_from_file_name(file_name: str) -> str:
+    """Parses out providers name from JCAlgTest result file name
+
+    Args:
+        file_name (str): Name of metadata file to parse the name from
+
+    Returns:
+        str: Parsed out name of the provider
+    """
+    if not ("provided" in file_name and "by" in file_name):
+        return ""
+    name = file_name.split("provided_by_")[1].strip(").csv")
+    name = " ".join(name.split("_"))
+    return name
+
+
 def get_jcalgtest_files_names() -> dict[str, str]:
-    files = {}
+    """ Returns names of files in configured jcalgtest URL repositories
+
+    Returns:
+        dict[str, str]: all files in the jcalgtest repositories as name: download_url
+    """
+    files: dict[str, str] = {}
     for url in JCALGTEST_GITHUB_RESULTS_URLS:
         print("Getting contents of " + url)
-        repo_url = url.split("/tree")[0]
+        repo_url, dir_path = url.split("/tree", maxsplit=1)
         dir_path = url.split("/main")[1]
         api_url = github_url_to_api(repo_url) + "/contents" + dir_path
 
         response = requests.get(api_url)
-        data = None
+        data = {}
         if response.status_code == 200:
             try:
                 data = response.json()
             except json.decoder.JSONDecodeError as e:
                 print(f"Error decoding JSON: {e}")
-                print(f"Response content: {response.text.lines()[:5]}")
-                return
+                print(f"Response content: {response.text.splitlines()[:5]}")
+                return files
         else:
             print(
                 f"Request failed with status code {response.status_code} - {response.reason}"
@@ -298,7 +313,13 @@ def get_jcalgtest_files_names() -> dict[str, str]:
                 files[file["name"]] = file["download_url"]
     return files
 
+
 def clear_and_tokenize_file_names() -> dict[str, tuple[list[str], str]]:
+    """ Get filtered and cleared words in all jcalgtest results files names.
+
+    Returns:
+        dict[str, tuple[list[str], str]]: A dictionary in format file_name: tokens, url
+    """
     data = get_jcalgtest_files_names()
     words_to_filter = [
         "open",
@@ -321,11 +342,18 @@ def clear_and_tokenize_file_names() -> dict[str, tuple[list[str], str]]:
     for file, url in data.items():
         name = file.strip(".csv")
         tokens = name.split("_")
-        tokens = list(map(lambda x: x.strip(")").strip("(").strip("[").strip("]").strip(".csv").lower(), tokens))
-        tokens = filter(lambda x: len(x) > 2 and not x.isnumeric() and not ("provided" in x or "xx" in x or "undisclosed" in x) and not all(c.isdigit() or c.lower() in 'abcdef' or c.isspace() for c in x), tokens)
-        tokens = filter(lambda x: True not in [x in word for word in words_to_filter], tokens)
-        tokens = filter(lambda x: not any(y.strip('v').isnumeric() for y in x.split('.')), tokens)
-        result[file] = list(tokens), url
-    
-    return result
+        tokens_map = map(lambda x: x.strip(")").strip(
+            "(").strip("[").strip("]").strip(".csv").lower(), tokens)
+        tokens_filter = filter(
+            lambda x: len(x) > 2 and not x.isnumeric() and not (
+                "provided" in x or "xx" in x or "undisclosed" in x) and not all(
+                c.isdigit() or c.lower() in 'abcdef' or c.isspace() for c in x), tokens_map)
+        tokens_filter = filter(
+            lambda x: True not in [
+                x in word for word in words_to_filter],
+            tokens_filter)
+        tokens_filter = filter(lambda x: not any(y.strip('v').isnumeric()
+                        for y in x.split('.')), tokens_filter)
+        result[file] = list(tokens_filter), url
 
+    return result
