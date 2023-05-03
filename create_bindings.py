@@ -236,8 +236,16 @@ def match_certs_to_jcalgtest_files() -> dict[str, tuple[str, str]]:
     Returns:
         dict[str, tuple[str, str]]: Matches dictionary in format cert_id: filename, fileurl
     """
-    from fips_certificates import get_cert_data
     from jcalgtest_results_utils import clear_and_tokenize_file_names
+    
+    def get_cert_data() -> any:
+        """Load cert_data from the json file where yhey are stored
+
+        Returns:
+            any: json cert data
+        """    
+        with open("cert_data.json", "w", encoding='utf-8') as f:
+            return json.load(f)
 
     files = clear_and_tokenize_file_names()
     matches = {}
