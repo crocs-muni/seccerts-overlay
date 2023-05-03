@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xf8_\\xbe \\xe9=2[[QUw\\x1f\\x1fQ\\xf9?R\\xbb0\\x94\\x9e\\x9e\\x98w\\xc0\\xd5\\xbb@4\\x9am'",
-      "timeStamp": "2023-05-03 22:49:08.282035",
+      "timeStamp": "2023-05-04 01:29:28.767692",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Feitian_A22_AIDSUPPORT_3BFC180000813180459067464A00680804000000000E.csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZjhfXFx4YmUgXFx4ZTk9MltbUVV3XFx4MWZcXHgxZlFcXHhmOT9SXFx4YmIwXFx4OTRcXHg5ZVxceDllXFx4OTh3XFx4YzBcXHhkNVxceGJiQDRcXHg5YW0nIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wMyAyMjo0OTowOC4yODIwMzUiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IiIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9haWQvRmVpdGlhbl9BMjJfQUlEU1VQUE9SVF8zQkZDMTgwMDAwODEzMTgwNDU5MDY3NDY0QTAwNjgwODA0MDAwMDAwMDAwRS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.U-xYKWx2GCHkjN0zPEcoQpegm4m_cvNG8mx3BPpXmGQ"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZjhfXFx4YmUgXFx4ZTk9MltbUVV3XFx4MWZcXHgxZlFcXHhmOT9SXFx4YmIwXFx4OTRcXHg5ZVxceDllXFx4OTh3XFx4YzBcXHhkNVxceGJiQDRcXHg5YW0nIiwidGltZVN0YW1wIjoiMjAyMy0wNS0wNCAwMToyOToyOC43Njc2OTIiLCJtZWFzdXJlbWVudFRvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudEF1dGhvciI6IiIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9haWQvRmVpdGlhbl9BMjJfQUlEU1VQUE9SVF8zQkZDMTgwMDAwODEzMTgwNDU5MDY3NDY0QTAwNjgwODA0MDAwMDAwMDAwRS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.r1x8V9bH30I1Us1EizdheE1oUMKojjhYKi3zM6n9FC4"
 }

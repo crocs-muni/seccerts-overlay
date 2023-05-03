@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xb7:D-\\x93AAp\\xd3\\x9f\\xe9\\xeb\\x92\\xb7q\\xe9\\xd5]\\x92ift<{$\\xca6\\xa4/\\xbf\\x08\\x89'",
-      "timeStamp": "2023-05-03 22:49:24.418512",
+      "timeStamp": "2023-05-04 01:29:43.682984",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "Thoth",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Infineon_SECORA_ID_X_Batch_16072021_SALES_ALGSUPPORT__3b_88_80_01_00_00_00_11_77_81_c3_00_2d_(provided_by_Thoth).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4Yjc6RC1cXHg5M0FBcFxceGQzXFx4OWZcXHhlOVxceGViXFx4OTJcXHhiN3FcXHhlOVxceGQ1XVxceDkyaWZ0PHskXFx4Y2E2XFx4YTQvXFx4YmZcXHgwOFxceDg5JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDMgMjI6NDk6MjQuNDE4NTEyIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJUaG90aCIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0luZmluZW9uX1NFQ09SQV9JRF9YX0JhdGNoXzE2MDcyMDIxX1NBTEVTX0FMR1NVUFBPUlRfXzNiXzg4XzgwXzAxXzAwXzAwXzAwXzExXzc3XzgxX2MzXzAwXzJkXyhwcm92aWRlZF9ieV9UaG90aCkuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.MgTZikhIabZ1fNKJix84fTqxHHE3Y4CVSEIeeSEl_sM"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4Yjc6RC1cXHg5M0FBcFxceGQzXFx4OWZcXHhlOVxceGViXFx4OTJcXHhiN3FcXHhlOVxceGQ1XVxceDkyaWZ0PHskXFx4Y2E2XFx4YTQvXFx4YmZcXHgwOFxceDg5JyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDQgMDE6Mjk6NDMuNjgyOTg0IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJUaG90aCIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL0luZmluZW9uX1NFQ09SQV9JRF9YX0JhdGNoXzE2MDcyMDIxX1NBTEVTX0FMR1NVUFBPUlRfXzNiXzg4XzgwXzAxXzAwXzAwXzAwXzExXzc3XzgxX2MzXzAwXzJkXyhwcm92aWRlZF9ieV9UaG90aCkuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.ODO-ChhWm7T4MrDWb1tgEAWOr9tv3z9x7x0pL6iYYIM"
 }

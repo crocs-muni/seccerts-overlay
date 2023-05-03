@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b' \\xef\\x81}N\\xfdNj\\x06A\\x9a\\xe2Q\\x80X\\xe9`b\\xe4\\xb8\\nJ<\\t\\xb6-\\xd8B\\xeb=\\xd7\\xb1'",
-      "timeStamp": "2023-05-03 22:48:54.053845",
+      "timeStamp": "2023-05-04 01:29:09.303902",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/NXP_JCOP_10.18_v2.3.1_ICFabDate_2008_163_ALGSUPPORT__3b_fa_13_00_00_81_31_fe_45_4a_43_4f_50_31_30_56_32_33_31_93_(provided_by_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInIFxceGVmXFx4ODF9TlxceGZkTmpcXHgwNkFcXHg5YVxceGUyUVxceDgwWFxceGU5YGJcXHhlNFxceGI4XFxuSjxcXHRcXHhiNi1cXHhkOEJcXHhlYj1cXHhkN1xceGIxJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDMgMjI6NDg6NTQuMDUzODQ1IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJQZXRyUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL05YUF9KQ09QXzEwLjE4X3YyLjMuMV9JQ0ZhYkRhdGVfMjAwOF8xNjNfQUxHU1VQUE9SVF9fM2JfZmFfMTNfMDBfMDBfODFfMzFfZmVfNDVfNGFfNDNfNGZfNTBfMzFfMzBfNTZfMzJfMzNfMzFfOTNfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.Y7kzEnvFZVT4I_etKex6ZogPWrsMHXze0jsGb3egaec"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInIFxceGVmXFx4ODF9TlxceGZkTmpcXHgwNkFcXHg5YVxceGUyUVxceDgwWFxceGU5YGJcXHhlNFxceGI4XFxuSjxcXHRcXHhiNi1cXHhkOEJcXHhlYj1cXHhkN1xceGIxJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDQgMDE6Mjk6MDkuMzAzOTAyIiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJQZXRyUyIsIm1ldGFkYXRhVVJMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL05YUF9KQ09QXzEwLjE4X3YyLjMuMV9JQ0ZhYkRhdGVfMjAwOF8xNjNfQUxHU1VQUE9SVF9fM2JfZmFfMTNfMDBfMDBfODFfMzFfZmVfNDVfNGFfNDNfNGZfNTBfMzFfMzBfNTZfMzJfMzNfMzFfOTNfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.gRiSCII2zVHS9J0HKATo7rscLvuA6PvlvmHz_iU2C40"
 }

@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b']\\xee\\xc0\"\\xdaVV\\xa7\\xb2\\xdf\\xa9\\x89^T\\xd1V:W\\xcf\\x10@\\xa8\\xea#q\\xec\\xe3;\\xd5f 9'",
-      "timeStamp": "2023-05-03 22:49:01.332119",
+      "timeStamp": "2023-05-04 01:29:20.454530",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/only_cplc/Cyberflex_Palmera_V3_ALGSUPPORT__3b_65_00_00_44_04_01_08_03_(provided_by_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXVxceGVlXFx4YzBcIlxceGRhVlZcXHhhN1xceGIyXFx4ZGZcXHhhOVxceDg5XlRcXHhkMVY6V1xceGNmXFx4MTBAXFx4YThcXHhlYSNxXFx4ZWNcXHhlMztcXHhkNWYgOSciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAzIDIyOjQ5OjAxLjMzMjExOSIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9vbmx5X2NwbGMvQ3liZXJmbGV4X1BhbG1lcmFfVjNfQUxHU1VQUE9SVF9fM2JfNjVfMDBfMDBfNDRfMDRfMDFfMDhfMDNfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.9oJDVV8dHmPBvMmRX6aQtZ6DGl7ZT7JsHnkq6Co0A3I"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXVxceGVlXFx4YzBcIlxceGRhVlZcXHhhN1xceGIyXFx4ZGZcXHhhOVxceDg5XlRcXHhkMVY6V1xceGNmXFx4MTBAXFx4YThcXHhlYSNxXFx4ZWNcXHhlMztcXHhkNWYgOSciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTA0IDAxOjI5OjIwLjQ1NDUzMCIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9vbmx5X2NwbGMvQ3liZXJmbGV4X1BhbG1lcmFfVjNfQUxHU1VQUE9SVF9fM2JfNjVfMDBfMDBfNDRfMDRfMDFfMDhfMDNfKHByb3ZpZGVkX2J5X1BldHJTKS5jc3YifV0sInZlcnNpb24iOiIxLjAifQ.G0i1Sejm8p3bj_HpXhUj_AvqtiZHebDx16PmtTThVT0"
 }

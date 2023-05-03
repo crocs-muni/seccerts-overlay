@@ -244,7 +244,7 @@ def match_certs_to_jcalgtest_files() -> dict[str, tuple[str, str]]:
         Returns:
             any: json cert data
         """    
-        with open("cert_data.json", "w", encoding='utf-8') as f:
+        with open("cert_data.json", "r", encoding='utf-8') as f:
             return json.load(f)
 
     files = clear_and_tokenize_file_names()
@@ -257,9 +257,9 @@ def match_certs_to_jcalgtest_files() -> dict[str, tuple[str, str]]:
                     matched_tokens.append(token)
             if len(matched_tokens) > 0:
                 if id in matches:
-                    matches[id].append((file, url))
+                    matches[id].append((file, urllib.parse.unquote(url)))
                 else:
-                    matches[id] = [(file, url)]
+                    matches[id] = [(file, urllib.parse.unquote(url))]
 
     with open("matches.json", "w", encoding='utf-8') as f:
         f.write(json.dumps(matches))

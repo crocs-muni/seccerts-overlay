@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'\\xe1F\\x8e\\x0c\\xf4\\xd6\\x1bm\\xf1\\x87\\\\\\xfb2\\x08\\xb0\\x8e\\x9d\\xffk\\xfbbJ\\xa1@\\te\\x05\\xc6\\xb7\\xf1@\\xe1'",
-      "timeStamp": "2023-05-03 22:49:05.545415",
+      "timeStamp": "2023-05-04 01:29:26.370358",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "PetrS",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Athena_IDProtect_ICFabDate_2015_ALGSUPPORT__3b_d5_18_ff_81_91_fe_1f_c3_80_73_c8_21_13_09_(provided_by_PetrS).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZTFGXFx4OGVcXHgwY1xceGY0XFx4ZDZcXHgxYm1cXHhmMVxceDg3XFxcXFxceGZiMlxceDA4XFx4YjBcXHg4ZVxceDlkXFx4ZmZrXFx4ZmJiSlxceGExQFxcdGVcXHgwNVxceGM2XFx4YjdcXHhmMUBcXHhlMSciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTAzIDIyOjQ5OjA1LjU0NTQxNSIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9BdGhlbmFfSURQcm90ZWN0X0lDRmFiRGF0ZV8yMDE1X0FMR1NVUFBPUlRfXzNiX2Q1XzE4X2ZmXzgxXzkxX2ZlXzFmX2MzXzgwXzczX2M4XzIxXzEzXzA5Xyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.4pAbhiUeyo_bzecorSZRgqlhSP0_KWd25xFF7Hpy1Mw"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZTFGXFx4OGVcXHgwY1xceGY0XFx4ZDZcXHgxYm1cXHhmMVxceDg3XFxcXFxceGZiMlxceDA4XFx4YjBcXHg4ZVxceDlkXFx4ZmZrXFx4ZmJiSlxceGExQFxcdGVcXHgwNVxceGM2XFx4YjdcXHhmMUBcXHhlMSciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTA0IDAxOjI5OjI2LjM3MDM1OCIsIm1lYXN1cmVtZW50VG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50QXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvcmVzdWx0cy9BdGhlbmFfSURQcm90ZWN0X0lDRmFiRGF0ZV8yMDE1X0FMR1NVUFBPUlRfXzNiX2Q1XzE4X2ZmXzgxXzkxX2ZlXzFmX2MzXzgwXzczX2M4XzIxXzEzXzA5Xyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.lj8P2KQfV5NnPUkt9p0mkZ0sn-AWzGa535PRfAnX8wI"
 }

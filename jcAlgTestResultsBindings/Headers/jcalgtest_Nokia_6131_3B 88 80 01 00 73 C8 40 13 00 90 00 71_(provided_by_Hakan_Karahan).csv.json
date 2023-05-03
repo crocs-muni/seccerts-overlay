@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'T\\xa5\\xba\"\\xa0(k\\x81\\xb4\\x0b\\xec\\xbf\\xf0\\x8e\\xd5\\x15\\xb8\\n\\xfc\\xfd\\xa3\\xf4\\x058\\xc7ts\\xfd\\x15xJ\\xa3'",
-      "timeStamp": "2023-05-03 22:49:07.711539",
+      "timeStamp": "2023-05-04 01:29:28.233679",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "Hakan Karahan",
-      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Nokia_6131_3B%2088%2080%2001%2000%2073%20C8%2040%2013%2000%2090%2000%2071_(provided_by_Hakan_Karahan).csv"
+      "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Nokia_6131_3B 88 80 01 00 73 C8 40 13 00 90 00 71_(provided_by_Hakan_Karahan).csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInVFxceGE1XFx4YmFcIlxceGEwKGtcXHg4MVxceGI0XFx4MGJcXHhlY1xceGJmXFx4ZjBcXHg4ZVxceGQ1XFx4MTVcXHhiOFxcblxceGZjXFx4ZmRcXHhhM1xceGY0XFx4MDU4XFx4Yzd0c1xceGZkXFx4MTV4SlxceGEzJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDMgMjI6NDk6MDcuNzExNTM5IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJIYWthbiBLYXJhaGFuIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTm9raWFfNjEzMV8zQiUyMDg4JTIwODAlMjAwMSUyMDAwJTIwNzMlMjBDOCUyMDQwJTIwMTMlMjAwMCUyMDkwJTIwMDAlMjA3MV8ocHJvdmlkZWRfYnlfSGFrYW5fS2FyYWhhbikuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.dAClC9erNhUdRLavmggSRP0gSQXM949aypcUKmmYWjU"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInVFxceGE1XFx4YmFcIlxceGEwKGtcXHg4MVxceGI0XFx4MGJcXHhlY1xceGJmXFx4ZjBcXHg4ZVxceGQ1XFx4MTVcXHhiOFxcblxceGZjXFx4ZmRcXHhhM1xceGY0XFx4MDU4XFx4Yzd0c1xceGZkXFx4MTV4SlxceGEzJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDQgMDE6Mjk6MjguMjMzNjc5IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiJIYWthbiBLYXJhaGFuIiwibWV0YWRhdGFVUkwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTm9raWFfNjEzMV8zQiA4OCA4MCAwMSAwMCA3MyBDOCA0MCAxMyAwMCA5MCAwMCA3MV8ocHJvdmlkZWRfYnlfSGFrYW5fS2FyYWhhbikuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.m_5ajyo0ryHfoSwmhCr2bGqEyJ-AINU5ttXY8ZvqbU4"
 }

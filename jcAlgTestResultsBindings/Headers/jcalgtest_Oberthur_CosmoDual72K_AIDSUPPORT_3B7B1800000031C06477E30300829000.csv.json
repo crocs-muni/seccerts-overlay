@@ -2,12 +2,12 @@
   "data": [
     {
       "metadataSHA256": "b'J\\t\\x1a\\x87\\x9e\\xd2\\xf0\\xf7\\xf9\\x99\\xeem\\xa9o\\xf3[\\x7f\\xeb\\xc6\\x92\\xc2hP\\x81\\xa5X\\xefn\\x8e\\xff\\xd8\\xe3'",
-      "timeStamp": "2023-05-03 22:49:02.837977",
+      "timeStamp": "2023-05-04 01:29:23.914007",
       "measurementTool": "JCAlgtest",
       "measurementAuthor": "",
       "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Oberthur_CosmoDual72K_AIDSUPPORT_3B7B1800000031C06477E30300829000.csv"
     }
   ],
   "version": "1.0",
-  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInSlxcdFxceDFhXFx4ODdcXHg5ZVxceGQyXFx4ZjBcXHhmN1xceGY5XFx4OTlcXHhlZW1cXHhhOW9cXHhmM1tcXHg3ZlxceGViXFx4YzZcXHg5MlxceGMyaFBcXHg4MVxceGE1WFxceGVmblxceDhlXFx4ZmZcXHhkOFxceGUzJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDMgMjI6NDk6MDIuODM3OTc3IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL09iZXJ0aHVyX0Nvc21vRHVhbDcyS19BSURTVVBQT1JUXzNCN0IxODAwMDAwMDMxQzA2NDc3RTMwMzAwODI5MDAwLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.4_jKsXoNuPKBsp1S1kvxHPvjybuB2iB_-VjpyHvO-x0"
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInSlxcdFxceDFhXFx4ODdcXHg5ZVxceGQyXFx4ZjBcXHhmN1xceGY5XFx4OTlcXHhlZW1cXHhhOW9cXHhmM1tcXHg3ZlxceGViXFx4YzZcXHg5MlxceGMyaFBcXHg4MVxceGE1WFxceGVmblxceDhlXFx4ZmZcXHhkOFxceGUzJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDQgMDE6Mjk6MjMuOTE0MDA3IiwibWVhc3VyZW1lbnRUb29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRBdXRob3IiOiIiLCJtZXRhZGF0YVVSTCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL2pjYWxndGVzdF9yZXN1bHRzL21haW4vamF2YWNhcmQvUHJvZmlsZXMvYWlkL09iZXJ0aHVyX0Nvc21vRHVhbDcyS19BSURTVVBQT1JUXzNCN0IxODAwMDAwMDMxQzA2NDc3RTMwMzAwODI5MDAwLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.-WyuzpSKfl1cLO1v93X8b-B4ZWdoFffG7vonAAjD1Ug"
 }
