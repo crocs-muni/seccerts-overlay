@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "metadataSHA256": "b'\\x83\\xeb\\x11E\\xa3\\x16\\xb1\\xe3\\xea\\xf3\\x1b\\x17\\xa7f<\\xcbC=0\\xb5\\xa1\\x8c\\xbb\\xbf\\xe6\\x02\\xe6W6\\x8f6)'",
+            "timeStamp": "2023-05-05 21:54:18.806355",
+            "measurement_tool": "JCAlgtest",
+            "measurement_author": "Petr Svenda",
+            "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/NXP_J2E145G_ICFabDate_2013_025_ALGSUPPORT__3b_f9_13_00_00_81_31_fe_45_4a_43_4f_50_32_34_32_52_33_a2_(provided_by_PetrS_and_Lukas_Malina).csv",
+            "metadata_type": "JCAlgTest algorithm support",
+            "metadata_preview": "https://www.fi.muni.cz/~xsvenda/jcalgtest/pics/logo.png"
+        },
+        {
+            "metadataSHA256": "b'\\xf8\\xb9 9/\\x15\\x0f\\x9cf\\xbbh\\xd1*\\x13\\x7f\\x0ff~\\xb9HS\\x16p\\\\f\\xcd\\x8b\\xaf\\xce}\\x0bM'",
+            "timeStamp": "2023-05-05 21:54:19.198449",
+            "measurement_tool": "JCAlgtest",
+            "measurement_author": "Matus Nemec",
+            "metadata_url": "https://owncloud.cesnet.cz/index.php/s/Ihhw3BKKzKTaxB9/download?path=%2FCard%2FNXP%20J2E145G%201024b&files=00250496.csv",
+            "metadata_type": "RSA key analysis",
+            "metadata_preview": "https://owncloud.cesnet.cz/index.php/s/Ihhw3BKKzKTaxB9/download?path=%2FCard%2FNXP%20J2E145G%201024b&files=nxpjcop3_j2e145g.PNG"
+        },
+        {
+            "metadataSHA256": "b'\\xaa_\\x14W\\x8b\\xba\\xae\\xeb;\\xd2\\xb0\\xf6\\xf7\\xa4y\\x10\\xbe\\x1b&\\x90X\\xdc\\x81\\xf8\\xb8\\x8eiK\\xa4\\x81rZ'",
+            "timeStamp": "2023-05-05 21:54:21.873115",
+            "measurement_tool": "JCAlgtest",
+            "measurement_author": "David Komarek",
+            "metadata_url": "https://is.muni.cz/th/fa6tq/thesis.pdf",
+            "metadata_type": "RSA powertrace",
+            "metadata_preview": "https://drive.google.com/uc?id=1pjFalwnhxWAE0EgYrZJ2v1fTHV6fnSUi"
+        }
+    ],
+    "version": "1.0",
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ODNcXHhlYlxceDExRVxceGEzXFx4MTZcXHhiMVxceGUzXFx4ZWFcXHhmM1xceDFiXFx4MTdcXHhhN2Y8XFx4Y2JDPTBcXHhiNVxceGExXFx4OGNcXHhiYlxceGJmXFx4ZTZcXHgwMlxceGU2VzZcXHg4ZjYpJyIsInRpbWVTdGFtcCI6IjIwMjMtMDUtMDUgMjE6NTQ6MTguODA2MzU1IiwibWVhc3VyZW1lbnRfdG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50X2F1dGhvciI6IlBldHIgU3ZlbmRhIiwibWV0YWRhdGFfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nyb2NzLW11bmkvamNhbGd0ZXN0X3Jlc3VsdHMvbWFpbi9qYXZhY2FyZC9Qcm9maWxlcy9yZXN1bHRzL05YUF9KMkUxNDVHX0lDRmFiRGF0ZV8yMDEzXzAyNV9BTEdTVVBQT1JUX18zYl9mOV8xM18wMF8wMF84MV8zMV9mZV80NV80YV80M180Zl81MF8zMl8zNF8zMl81Ml8zM19hMl8ocHJvdmlkZWRfYnlfUGV0clNfYW5kX0x1a2FzX01hbGluYSkuY3N2IiwibWV0YWRhdGFfdHlwZSI6IkpDQWxnVGVzdCBhbGdvcml0aG0gc3VwcG9ydCIsIm1ldGFkYXRhX3ByZXZpZXciOiJodHRwczovL3d3dy5maS5tdW5pLmN6L354c3ZlbmRhL2pjYWxndGVzdC9waWNzL2xvZ28ucG5nIn0seyJtZXRhZGF0YVNIQTI1NiI6ImInXFx4ZjhcXHhiOSA5L1xceDE1XFx4MGZcXHg5Y2ZcXHhiYmhcXHhkMSpcXHgxM1xceDdmXFx4MGZmflxceGI5SFNcXHgxNnBcXFxcZlxceGNkXFx4OGJcXHhhZlxceGNlfVxceDBiTSciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTA1IDIxOjU0OjE5LjE5ODQ0OSIsIm1lYXN1cmVtZW50X3Rvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudF9hdXRob3IiOiJNYXR1cyBOZW1lYyIsIm1ldGFkYXRhX3VybCI6Imh0dHBzOi8vb3duY2xvdWQuY2VzbmV0LmN6L2luZGV4LnBocC9zL0loaHczQktLektUYXhCOS9kb3dubG9hZD9wYXRoPSUyRkNhcmQlMkZOWFAlMjBKMkUxNDVHJTIwMTAyNGImZmlsZXM9MDAyNTA0OTYuY3N2IiwibWV0YWRhdGFfdHlwZSI6IlJTQSBrZXkgYW5hbHlzaXMiLCJtZXRhZGF0YV9wcmV2aWV3IjoiaHR0cHM6Ly9vd25jbG91ZC5jZXNuZXQuY3ovaW5kZXgucGhwL3MvSWhodzNCS0t6S1RheEI5L2Rvd25sb2FkP3BhdGg9JTJGQ2FyZCUyRk5YUCUyMEoyRTE0NUclMjAxMDI0YiZmaWxlcz1ueHBqY29wM19qMmUxNDVnLlBORyJ9LHsibWV0YWRhdGFTSEEyNTYiOiJiJ1xceGFhX1xceDE0V1xceDhiXFx4YmFcXHhhZVxceGViO1xceGQyXFx4YjBcXHhmNlxceGY3XFx4YTR5XFx4MTBcXHhiZVxceDFiJlxceDkwWFxceGRjXFx4ODFcXHhmOFxceGI4XFx4OGVpS1xceGE0XFx4ODFyWiciLCJ0aW1lU3RhbXAiOiIyMDIzLTA1LTA1IDIxOjU0OjIxLjg3MzExNSIsIm1lYXN1cmVtZW50X3Rvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudF9hdXRob3IiOiJEYXZpZCBLb21hcmVrIiwibWV0YWRhdGFfdXJsIjoiaHR0cHM6Ly9pcy5tdW5pLmN6L3RoL2ZhNnRxL3RoZXNpcy5wZGYiLCJtZXRhZGF0YV90eXBlIjoiUlNBIHBvd2VydHJhY2UiLCJtZXRhZGF0YV9wcmV2aWV3IjoiaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2lkPTFwakZhbHduaHhXQUUwRWdZclpKMnYxZlRIVjZmblNVaSJ9XSwidmVyc2lvbiI6IjEuMCJ9.0Rt6rLDouG3_g1CA_Kyv4QoLYy9OSuTa2-XvDFuHH-A"
+}
