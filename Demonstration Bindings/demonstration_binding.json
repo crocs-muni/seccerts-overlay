@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "timeStamp": "2023-05-05 22:15:39.549131",
+            "certificate_ids": [
+                "2247",
+                "NSCIB-CC-13-37760-CR2"
+            ],
+            "metadata_header_url": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Demonstration%20Bindings/demonstration_data_header.json"
+        }
+    ],
+    "author": "CROCS",
+    "version": "1.0",
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJ0aW1lU3RhbXAiOiIyMDIzLTA1LTA1IDIyOjE1OjM5LjU0OTEzMSIsImNlcnRpZmljYXRlX2lkcyI6WyIyMjQ3IiwiTlNDSUItQ0MtMTMtMzc3NjAtQ1IyIl0sIm1ldGFkYXRhX2hlYWRlcl91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9zZWNjZXJ0cy1vdmVybGF5L21haW4vRGVtb25zdHJhdGlvbiUyMEJpbmRpbmdzL2RlbW9uc3RyYXRpb25fZGF0YV9oZWFkZXIuanNvbiJ9XSwiYXV0aG9yIjoiQ1JPQ1MiLCJ2ZXJzaW9uIjoiMS4wIn0.QRpXlsrMHhae1oHxcDvzYIX6-FLfh3oNGcMVeNKcNCM"
+}
