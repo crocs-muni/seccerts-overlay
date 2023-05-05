@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "956aaaf9af845a7570401c4b152da680b846cabdeeb5a333da32f67f83de0b17", "timestamp": "2023-05-05 22:37:30.861001", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Oberthur_Cosmo_v7_AIDSUPPORT_3BDB960080B1FE451F830031C064C308010001900095.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI5NTZhYWFmOWFmODQ1YTc1NzA0MDFjNGIxNTJkYTY4MGI4NDZjYWJkZWViNWEzMzNkYTMyZjY3ZjgzZGUwYjE3IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozMC44NjEwMDEiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9PYmVydGh1cl9Db3Ntb192N19BSURTVVBQT1JUXzNCREI5NjAwODBCMUZFNDUxRjgzMDAzMUMwNjRDMzA4MDEwMDAxOTAwMDk1LmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.8MX1h6MzKUl5Z-1zdlM9kuUNq8hEUNXxEBsZ5S-TMRw"}
+{
+  "data": [
+    {
+      "metadata_sha256": "956aaaf9af845a7570401c4b152da680b846cabdeeb5a333da32f67f83de0b17",
+      "timestamp": "2023-05-05 22:37:30.861001",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/Oberthur_Cosmo_v7_AIDSUPPORT_3BDB960080B1FE451F830031C064C308010001900095.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI5NTZhYWFmOWFmODQ1YTc1NzA0MDFjNGIxNTJkYTY4MGI4NDZjYWJkZWViNWEzMzNkYTMyZjY3ZjgzZGUwYjE3IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozMC44NjEwMDEiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9PYmVydGh1cl9Db3Ntb192N19BSURTVVBQT1JUXzNCREI5NjAwODBCMUZFNDUxRjgzMDAzMUMwNjRDMzA4MDEwMDAxOTAwMDk1LmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.8MX1h6MzKUl5Z-1zdlM9kuUNq8hEUNXxEBsZ5S-TMRw"
+}

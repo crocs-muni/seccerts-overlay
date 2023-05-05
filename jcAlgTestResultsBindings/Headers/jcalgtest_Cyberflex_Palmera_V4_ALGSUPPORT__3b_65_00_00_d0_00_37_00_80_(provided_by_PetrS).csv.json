@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "ac3bd0a26e62972b6d35d5ced0a30671f8d7c5b442ec82f38b2895a39da9cd39", "timestamp": "2023-05-05 22:38:14.241004", "measurement_tool": "JCAlgtest", "measurement_author": "PetrS", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/only_cplc/Cyberflex_Palmera_V4_ALGSUPPORT__3b_65_00_00_d0_00_37_00_80_(provided_by_PetrS).csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJhYzNiZDBhMjZlNjI5NzJiNmQzNWQ1Y2VkMGEzMDY3MWY4ZDdjNWI0NDJlYzgyZjM4YjI4OTVhMzlkYTljZDM5IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozODoxNC4yNDEwMDQiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvb25seV9jcGxjL0N5YmVyZmxleF9QYWxtZXJhX1Y0X0FMR1NVUFBPUlRfXzNiXzY1XzAwXzAwX2QwXzAwXzM3XzAwXzgwXyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.9qSKDzkzB9tiSLDK2_uex0b6eIAGGDs4Q0R1s8g6Kw8"}
+{
+  "data": [
+    {
+      "metadata_sha256": "ac3bd0a26e62972b6d35d5ced0a30671f8d7c5b442ec82f38b2895a39da9cd39",
+      "timestamp": "2023-05-05 22:38:14.241004",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "PetrS",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/only_cplc/Cyberflex_Palmera_V4_ALGSUPPORT__3b_65_00_00_d0_00_37_00_80_(provided_by_PetrS).csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJhYzNiZDBhMjZlNjI5NzJiNmQzNWQ1Y2VkMGEzMDY3MWY4ZDdjNWI0NDJlYzgyZjM4YjI4OTVhMzlkYTljZDM5IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozODoxNC4yNDEwMDQiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvb25seV9jcGxjL0N5YmVyZmxleF9QYWxtZXJhX1Y0X0FMR1NVUFBPUlRfXzNiXzY1XzAwXzAwX2QwXzAwXzM3XzAwXzgwXyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.9qSKDzkzB9tiSLDK2_uex0b6eIAGGDs4Q0R1s8g6Kw8"
+}

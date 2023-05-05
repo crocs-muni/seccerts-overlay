@@ -79,9 +79,14 @@ def get_file_path(url: str) -> str:
         nonpath_parts = (parsed_url.scheme, parsed_url.netloc, '',
                          parsed_url.params, parsed_url.query, parsed_url.fragment)
         nonpath_url = urllib.parse.urlunparse(nonpath_parts)
-        url = nonpath_url + path #urllib.parse.quote(path)
+        url = nonpath_url + urllib.parse.quote(path)
         print("Retrieving remote file: " + url)
-        urllib.request.urlretrieve(url, filepath)
+        try:
+            urllib.request.urlretrieve(url, filepath)
+        except:
+            url = nonpath_url + path
+            print(f"Error, Trying with {url}")
+            urllib.request.urlretrieve(url, filepath)
     else:
         filepath = unquote(urlparse(url).path)
     return filepath
@@ -369,12 +374,12 @@ def create_demonstration_bindings_and_headers(target_directory):
 
 
 if __name__ == "__main__":
-    '''if exists("matches.json"):
+    if exists("matches.json"):
         with open("matches.json", "r", encoding='utf-8') as f:
             print("Loading matches from cached matches.json")
             matches = json.load(f)
     else:
         matches = match_certs_to_jcalgtest_files()
     create_headers_from_matches(matches)
-    create_bindings_from_matches_and_headers(matches)'''
-    create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
+    create_bindings_from_matches_and_headers(matches, JCALGTEST_RESULTS_BINDINGS_PATH)
+    #create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)

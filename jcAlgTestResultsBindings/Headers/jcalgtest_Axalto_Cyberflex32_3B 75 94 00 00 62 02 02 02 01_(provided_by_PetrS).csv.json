@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "132a6cbd6532a85b60a26a9cc19265000585c542fbd73f844f5048bcc2ba172c", "timestamp": "2023-05-05 22:38:38.079960", "measurement_tool": "JCAlgtest", "measurement_author": "PetrS", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Axalto_Cyberflex32_3B 75 94 00 00 62 02 02 02 01_(provided_by_PetrS).csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIxMzJhNmNiZDY1MzJhODViNjBhMjZhOWNjMTkyNjUwMDA1ODVjNTQyZmJkNzNmODQ0ZjUwNDhiY2MyYmExNzJjIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozODozOC4wNzk5NjAiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvQXhhbHRvX0N5YmVyZmxleDMyXzNCIDc1IDk0IDAwIDAwIDYyIDAyIDAyIDAyIDAxXyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.jVHtL6A_--lT91P4cTfWHurMs96UNd1FjXgcnchjYls"}
+{
+  "data": [
+    {
+      "metadata_sha256": "132a6cbd6532a85b60a26a9cc19265000585c542fbd73f844f5048bcc2ba172c",
+      "timestamp": "2023-05-05 22:38:38.079960",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "PetrS",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/Axalto_Cyberflex32_3B 75 94 00 00 62 02 02 02 01_(provided_by_PetrS).csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIxMzJhNmNiZDY1MzJhODViNjBhMjZhOWNjMTkyNjUwMDA1ODVjNTQyZmJkNzNmODQ0ZjUwNDhiY2MyYmExNzJjIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozODozOC4wNzk5NjAiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0clMiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvQXhhbHRvX0N5YmVyZmxleDMyXzNCIDc1IDk0IDAwIDAwIDYyIDAyIDAyIDAyIDAxXyhwcm92aWRlZF9ieV9QZXRyUykuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.jVHtL6A_--lT91P4cTfWHurMs96UNd1FjXgcnchjYls"
+}

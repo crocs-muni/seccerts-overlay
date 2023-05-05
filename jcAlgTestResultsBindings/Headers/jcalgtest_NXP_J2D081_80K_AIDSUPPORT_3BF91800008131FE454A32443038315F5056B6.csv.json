@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "ac4c58c5e42867478924c624a3a99ba07feb7a5f725e4501e8856259a9792343", "timestamp": "2023-05-05 22:37:35.160270", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_J2D081_80K_AIDSUPPORT_3BF91800008131FE454A32443038315F5056B6.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJhYzRjNThjNWU0Mjg2NzQ3ODkyNGM2MjRhM2E5OWJhMDdmZWI3YTVmNzI1ZTQ1MDFlODg1NjI1OWE5NzkyMzQzIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNS4xNjAyNzAiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSjJEMDgxXzgwS19BSURTVVBQT1JUXzNCRjkxODAwMDA4MTMxRkU0NTRBMzI0NDMwMzgzMTVGNTA1NkI2LmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.lPqwBDEYwS7N6sUKZqizGGzsbEN8pRgYlHuykOyZDIQ"}
+{
+  "data": [
+    {
+      "metadata_sha256": "ac4c58c5e42867478924c624a3a99ba07feb7a5f725e4501e8856259a9792343",
+      "timestamp": "2023-05-05 22:37:35.160270",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_J2D081_80K_AIDSUPPORT_3BF91800008131FE454A32443038315F5056B6.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJhYzRjNThjNWU0Mjg2NzQ3ODkyNGM2MjRhM2E5OWJhMDdmZWI3YTVmNzI1ZTQ1MDFlODg1NjI1OWE5NzkyMzQzIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNS4xNjAyNzAiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSjJEMDgxXzgwS19BSURTVVBQT1JUXzNCRjkxODAwMDA4MTMxRkU0NTRBMzI0NDMwMzgzMTVGNTA1NkI2LmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.lPqwBDEYwS7N6sUKZqizGGzsbEN8pRgYlHuykOyZDIQ"
+}

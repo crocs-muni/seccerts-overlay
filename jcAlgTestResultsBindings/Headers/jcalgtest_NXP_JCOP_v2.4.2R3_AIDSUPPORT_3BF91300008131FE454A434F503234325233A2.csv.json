@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "3c22baeabb30b13ef1f18540ebe849e75c91c1720ba1cce67f50660d46030ae7", "timestamp": "2023-05-05 22:37:39.572045", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP_v2.4.2R3_AIDSUPPORT_3BF91300008131FE454A434F503234325233A2.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIzYzIyYmFlYWJiMzBiMTNlZjFmMTg1NDBlYmU4NDllNzVjOTFjMTcyMGJhMWNjZTY3ZjUwNjYwZDQ2MDMwYWU3IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozOS41NzIwNDUiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUF92Mi40LjJSM19BSURTVVBQT1JUXzNCRjkxMzAwMDA4MTMxRkU0NTRBNDM0RjUwMzIzNDMyNTIzM0EyLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.BLK7C4KUgnLyWR39npaubU2kbmbrvIaP0bWsPP_Y61I"}
+{
+  "data": [
+    {
+      "metadata_sha256": "3c22baeabb30b13ef1f18540ebe849e75c91c1720ba1cce67f50660d46030ae7",
+      "timestamp": "2023-05-05 22:37:39.572045",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP_v2.4.2R3_AIDSUPPORT_3BF91300008131FE454A434F503234325233A2.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIzYzIyYmFlYWJiMzBiMTNlZjFmMTg1NDBlYmU4NDllNzVjOTFjMTcyMGJhMWNjZTY3ZjUwNjYwZDQ2MDMwYWU3IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozOS41NzIwNDUiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUF92Mi40LjJSM19BSURTVVBQT1JUXzNCRjkxMzAwMDA4MTMxRkU0NTRBNDM0RjUwMzIzNDMyNTIzM0EyLmNzdiJ9XSwidmVyc2lvbiI6IjEuMCJ9.BLK7C4KUgnLyWR39npaubU2kbmbrvIaP0bWsPP_Y61I"
+}

@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "d84b0af4661ac30e2f6a047253c6b8f2e21acccaff9969608da5641ed0a2e784", "timestamp": "2023-05-05 22:37:34.548987", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_CJ3A081_AIDSUPPORT_3BFA1800008131FE454A33413038315632343189.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJkODRiMGFmNDY2MWFjMzBlMmY2YTA0NzI1M2M2YjhmMmUyMWFjY2NhZmY5OTY5NjA4ZGE1NjQxZWQwYTJlNzg0IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNC41NDg5ODciLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfQ0ozQTA4MV9BSURTVVBQT1JUXzNCRkExODAwMDA4MTMxRkU0NTRBMzM0MTMwMzgzMTU2MzIzNDMxODkuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.-GjgYXzgI2GHJBvLMh5IKGVHLCD0mjnJ3j-c-mgn2Mk"}
+{
+  "data": [
+    {
+      "metadata_sha256": "d84b0af4661ac30e2f6a047253c6b8f2e21acccaff9969608da5641ed0a2e784",
+      "timestamp": "2023-05-05 22:37:34.548987",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_CJ3A081_AIDSUPPORT_3BFA1800008131FE454A33413038315632343189.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJkODRiMGFmNDY2MWFjMzBlMmY2YTA0NzI1M2M2YjhmMmUyMWFjY2NhZmY5OTY5NjA4ZGE1NjQxZWQwYTJlNzg0IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNC41NDg5ODciLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfQ0ozQTA4MV9BSURTVVBQT1JUXzNCRkExODAwMDA4MTMxRkU0NTRBMzM0MTMwMzgzMTU2MzIzNDMxODkuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.-GjgYXzgI2GHJBvLMh5IKGVHLCD0mjnJ3j-c-mgn2Mk"
+}

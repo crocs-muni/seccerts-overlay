@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "4f60c168c5a9c1ba2a39b62c225ebe799f802ab5a292c57113f4c1f9e018e64a", "timestamp": "2023-05-05 22:37:37.799018", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP_1018_v2.3.1_AIDSUPPORT_3BFA1300008131FE454A434F5031305632333193.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI0ZjYwYzE2OGM1YTljMWJhMmEzOWI2MmMyMjVlYmU3OTlmODAyYWI1YTI5MmM1NzExM2Y0YzFmOWUwMThlNjRhIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy43OTkwMTgiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUF8xMDE4X3YyLjMuMV9BSURTVVBQT1JUXzNCRkExMzAwMDA4MTMxRkU0NTRBNDM0RjUwMzEzMDU2MzIzMzMxOTMuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.wEkFCDXG5jp0KcgDcGhX90Idc9G6SMLA5w0uLAuqxmI"}
+{
+  "data": [
+    {
+      "metadata_sha256": "4f60c168c5a9c1ba2a39b62c225ebe799f802ab5a292c57113f4c1f9e018e64a",
+      "timestamp": "2023-05-05 22:37:37.799018",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP_1018_v2.3.1_AIDSUPPORT_3BFA1300008131FE454A434F5031305632333193.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI0ZjYwYzE2OGM1YTljMWJhMmEzOWI2MmMyMjVlYmU3OTlmODAyYWI1YTI5MmM1NzExM2Y0YzFmOWUwMThlNjRhIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy43OTkwMTgiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUF8xMDE4X3YyLjMuMV9BSURTVVBQT1JUXzNCRkExMzAwMDA4MTMxRkU0NTRBNDM0RjUwMzEzMDU2MzIzMzMxOTMuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.wEkFCDXG5jp0KcgDcGhX90Idc9G6SMLA5w0uLAuqxmI"
+}

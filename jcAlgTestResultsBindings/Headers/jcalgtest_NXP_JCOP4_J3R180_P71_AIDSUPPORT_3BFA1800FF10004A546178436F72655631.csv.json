@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "38a052b1411dfef6a85be7184227486973e45a9c75b428ba8b7397334919059a", "timestamp": "2023-05-05 22:37:37.507632", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP4_J3R180_P71_AIDSUPPORT_3BFA1800FF10004A546178436F72655631.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIzOGEwNTJiMTQxMWRmZWY2YTg1YmU3MTg0MjI3NDg2OTczZTQ1YTljNzViNDI4YmE4YjczOTczMzQ5MTkwNTlhIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy41MDc2MzIiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUDRfSjNSMTgwX1A3MV9BSURTVVBQT1JUXzNCRkExODAwRkYxMDAwNEE1NDYxNzg0MzZGNzI2NTU2MzEuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.GUQFtrT6yCfeQW6znYxgvmOAHGgS6gwG_Qz7axhAnhQ"}
+{
+  "data": [
+    {
+      "metadata_sha256": "38a052b1411dfef6a85be7184227486973e45a9c75b428ba8b7397334919059a",
+      "timestamp": "2023-05-05 22:37:37.507632",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP4_J3R180_P71_AIDSUPPORT_3BFA1800FF10004A546178436F72655631.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiIzOGEwNTJiMTQxMWRmZWY2YTg1YmU3MTg0MjI3NDg2OTczZTQ1YTljNzViNDI4YmE4YjczOTczMzQ5MTkwNTlhIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy41MDc2MzIiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUDRfSjNSMTgwX1A3MV9BSURTVVBQT1JUXzNCRkExODAwRkYxMDAwNEE1NDYxNzg0MzZGNzI2NTU2MzEuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.GUQFtrT6yCfeQW6znYxgvmOAHGgS6gwG_Qz7axhAnhQ"
+}

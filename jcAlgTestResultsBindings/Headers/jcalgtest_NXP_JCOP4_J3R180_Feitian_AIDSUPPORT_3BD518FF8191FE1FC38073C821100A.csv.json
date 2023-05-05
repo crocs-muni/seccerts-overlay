@@ -1,1 +1,13 @@
-{"data": [{"metadata_sha256": "e8857b089113f5f2c1d0a2a1c894c2e1e8a712c9e2eab97d2d1b975559c8739d", "timestamp": "2023-05-05 22:37:37.204592", "measurement_tool": "JCAlgtest", "measurement_author": "Unknown author", "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP4_J3R180_Feitian_AIDSUPPORT_3BD518FF8191FE1FC38073C821100A.csv"}], "version": "1.0", "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJlODg1N2IwODkxMTNmNWYyYzFkMGEyYTFjODk0YzJlMWU4YTcxMmM5ZTJlYWI5N2QyZDFiOTc1NTU5Yzg3MzlkIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy4yMDQ1OTIiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUDRfSjNSMTgwX0ZlaXRpYW5fQUlEU1VQUE9SVF8zQkQ1MThGRjgxOTFGRTFGQzM4MDczQzgyMTEwMEEuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.buR8L5mqC9NsuZJXTrRM8QH_H16Kv2i84lWJtEV1i94"}
+{
+  "data": [
+    {
+      "metadata_sha256": "e8857b089113f5f2c1d0a2a1c894c2e1e8a712c9e2eab97d2d1b975559c8739d",
+      "timestamp": "2023-05-05 22:37:37.204592",
+      "measurement_tool": "JCAlgtest",
+      "measurement_author": "Unknown author",
+      "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/aid/NXP_JCOP4_J3R180_Feitian_AIDSUPPORT_3BD518FF8191FE1FC38073C821100A.csv"
+    }
+  ],
+  "version": "1.0",
+  "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiJlODg1N2IwODkxMTNmNWYyYzFkMGEyYTFjODk0YzJlMWU4YTcxMmM5ZTJlYWI5N2QyZDFiOTc1NTU5Yzg3MzlkIiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNSAyMjozNzozNy4yMDQ1OTIiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiVW5rbm93biBhdXRob3IiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL2FpZC9OWFBfSkNPUDRfSjNSMTgwX0ZlaXRpYW5fQUlEU1VQUE9SVF8zQkQ1MThGRjgxOTFGRTFGQzM4MDczQzgyMTEwMEEuY3N2In1dLCJ2ZXJzaW9uIjoiMS4wIn0.buR8L5mqC9NsuZJXTrRM8QH_H16Kv2i84lWJtEV1i94"
+}
