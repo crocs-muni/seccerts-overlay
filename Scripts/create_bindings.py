@@ -40,7 +40,7 @@ bindings_data = {
     "bindings": [
         {
             "certificate_ids": ["NIST-2247", "NSCIB-CC-13-37760-CR2"],
-            "metadata_header_url": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Demonstration%20Bindings/demonstration_data_header.json",
+            "metadata_header_url": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Demonstration%20Bindings/Headers/demonstration_data_header.json",
         }
     ],
     "author": "CROCS",
@@ -349,8 +349,8 @@ def create_bindings_from_matches_and_headers(
 
 def create_demonstration_bindings_and_headers(target_directory):
     os.makedirs(target_directory, exist_ok=True)
-    header_path = os.path.join(target_directory, "demonstration_data_header.json")
-    binding_path = os.path.join(target_directory, "demonstration_binding.json")
+    header_path = os.path.join(target_directory, "Headers", "demonstration_data_header.json")
+    binding_path = os.path.join(target_directory, "Bindings","demonstration_binding.json")
     
     for header in metadata_file_headers_base:
         create_metadata_headers_file(header, header_path)
@@ -358,12 +358,12 @@ def create_demonstration_bindings_and_headers(target_directory):
 
 
 if __name__ == "__main__":
-    if exists("matches.json"):
+    '''if exists("matches.json"):
         with open("matches.json", "r", encoding='utf-8') as f:
             print("Loading matches from cached matches.json")
             matches = json.load(f)
     else:
         matches = match_certs_to_jcalgtest_files()
     create_headers_from_matches(matches)
-    create_bindings_from_matches_and_headers(matches, JCALGTEST_RESULTS_BINDINGS_PATH)
-    #create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
+    create_bindings_from_matches_and_headers(matches, JCALGTEST_RESULTS_BINDINGS_PATH)'''
+    create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
