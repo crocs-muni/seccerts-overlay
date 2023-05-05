@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "timeStamp": {
+                            "type": "string"
+                        },
+                        "certificateIDs": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "metadataHeaderURL": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "timeStamp",
+                        "certificateIDs",
+                        "metadataHeaderURL"
+                    ]
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "timeStamp": {
+                            "type": "string"
+                        },
+                        "certificateIDs": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "metadataHeaderURL": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "timeStamp",
+                        "certificateIDs",
+                        "metadataHeaderURL"
+                    ]
+                }
+            ]
+        },
+        "author": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "JWT": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "data",
+        "author",
+        "version",
+        "JWT"
+    ]
+}
