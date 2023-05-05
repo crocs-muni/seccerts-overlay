@@ -1,7 +1,6 @@
 import os
 from os.path import exists
 import hashlib
-import pathlib
 import json
 from typing import Union
 import urllib.request
@@ -10,36 +9,39 @@ from datetime import datetime
 from urllib.parse import urlparse, unquote
 from pathlib import Path
 import jwt
+import base64
 
 SECRET_KEY = ""
 
-LOCAL_HEADER_PATH = (
-    "C:\\Dokumenty\\Diplomovka\\seccerts-overlay\\Examples\\Headers\\example_header_1.json"
-)
-JCALGTEST_RESULTS_BINDINGS_PATH = (
-    "C:\\Dokumenty\\Diplomovka\\seccerts-overlay\\jcAlgTestResultsBindings"
-)
-metadataFileHeadersObjs = [[{"measurementTool": "JCAlgtest",
-                             "measurementAuthor": "CROCS",
-                             "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/performance/fixed/Feitian_JavaCOS_3.0.4____PERFORMANCE_SYMMETRIC_ASYMMETRIC_DATAFIXED_1557852970194__3b_fc_18_00_00_81_31_80_45_90_67_46_4a_00_64_16_06_00_00_00_00_1e.csv",
-                             }],
-                           [{"measurementTool": "JCAlgtest",
-                             "measurementAuthor": "CROCS",
-                             "metadataURL": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/performance/fixed/Infineon_SECORA_ID_X_Batch_16072021_SALES____PERFORMANCE_SYMMETRIC_ASYMMETRIC_DATAFIXED_1627630268599__3b_88_80_01_00_00_00_11_77_81_c3_00_2d_(provided_by_Thoth).csv",
+JCALGTEST_RESULTS_BINDINGS_PATH = "C:\\Dokumenty\\Diplomovka\\seccerts-overlay\\jcAlgTestResultsBindings"
+PETR_BINDINGS_PATH = "C:\\Dokumenty\\Diplomovka\\seccerts-overlay\\Demonstration Bindings"
+
+metadata_file_headers_base = [[{"measurement_tool": "JCAlgtest",
+                             "measurement_author": "Petr Svenda",
+                             "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/NXP_J2E145G_ICFabDate_2013_025_ALGSUPPORT__3b_f9_13_00_00_81_31_fe_45_4a_43_4f_50_32_34_32_52_33_a2_(provided_by_PetrS_and_Lukas_Malina).csv",
+                             "metadata_type" : "JCAlgTest algorithm support",
+                             "metadata_preview" : "https://www.fi.muni.cz/~xsvenda/jcalgtest/pics/logo.png"
+                             },
+                            {"measurement_tool": "JCAlgtest",
+                             "measurement_author": "Matus Nemec",
+                             "metadata_url": "https://owncloud.cesnet.cz/index.php/s/Ihhw3BKKzKTaxB9/download?path=%2FCard%2FNXP%20J2E145G%201024b&files=00250496.csv",
+                             "metadata_type" : "RSA key analysis",
+                             "metadata_preview" : "https://owncloud.cesnet.cz/index.php/s/Ihhw3BKKzKTaxB9/download?path=%2FCard%2FNXP%20J2E145G%201024b&files=nxpjcop3_j2e145g.PNG"
+                             },
+                            {"measurement_tool": "JCAlgtest",
+                             "measurement_author": "David Komarek",
+                             "metadata_url": "https://is.muni.cz/th/fa6tq/thesis.pdf",
+                             "metadata_type" : "RSA powertrace",
+                             "metadata_preview" : "https://drive.google.com/uc?id=1pjFalwnhxWAE0EgYrZJ2v1fTHV6fnSUi"
                              }],
                            ]
-metadataBindingsObj = {
+
+bindings_data = {
     "bindings": [
         {
-            "certificateIDs": ["SERTIT-116"],
-            "metadataHeaderURL": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Examples/Headers/example_header_0.json",
-        },
-        {
-            "certificateIDs": [
-                "NSCIB-CC-0031318-CR2",
-                "NSCIB-CC-0031318-CR3"],
-            "metadataHeaderURL": pathlib.Path(LOCAL_HEADER_PATH).as_uri(),
-        },
+            "certificate_ids": ["NIST-2247", "NSCIB-CC-13-37760-CR2"],
+            "metadata_header_url": "https://raw.githubusercontent.com/crocs-muni/seccerts-overlay/main/Demonstration%20Bindings/demonstration_data_header.json",
+        }
     ],
     "author": "CROCS",
 }
@@ -74,17 +76,18 @@ def get_file_path(url: str) -> str:
         filepath = "metadata.csv"
         parsed_url = urlparse(url)
         path = parsed_url.path
-        nonpath_parts = (parsed_url.scheme, parsed_url.netloc, '', parsed_url.params, parsed_url.query, parsed_url.fragment)
-        nonpath_url = urllib.parse.urlunparse(nonpath_parts) 
-        url = nonpath_url + urllib.parse.quote(path)
-        #print("Retrieving remote file: " + url)
+        nonpath_parts = (parsed_url.scheme, parsed_url.netloc, '',
+                         parsed_url.params, parsed_url.query, parsed_url.fragment)
+        nonpath_url = urllib.parse.urlunparse(nonpath_parts)
+        url = nonpath_url + path #urllib.parse.quote(path)
+        print("Retrieving remote file: " + url)
         urllib.request.urlretrieve(url, filepath)
     else:
         filepath = unquote(urlparse(url).path)
     return filepath
 
 
-def get_metadata_file_hash(url: str) -> bytes:
+def get_metadata_file_hash(url: str) -> str:
     """ Get Hash of file located by URL
 
     Args:
@@ -101,7 +104,7 @@ def get_metadata_file_hash(url: str) -> bytes:
         while data:
             sha256.update(data)
             data = f.read(buff_size)
-    return sha256.digest()
+    return sha256.digest().hex()
 
 
 def get_jwt(data: dict[str, Union[str, list]]) -> str:
@@ -132,6 +135,21 @@ def verify_jwt(url: str) -> bool:
         del header_obj["JWT"]
         new = get_jwt(header_obj)
         return new == old
+    
+def get_base64_preview(url: str) -> str:
+    """ Function to get the base64 encoded representation of an image at a given URL
+
+    Args:
+        url (str): Preview pic location
+
+    Returns:
+        str: Base64 encoded preview image
+    """    
+    response = urllib.request.urlopen(url)
+    file_content = response.read()
+    base64_content = base64.b64encode(file_content)
+    base64_string = base64_content.decode('utf-8')
+    return base64_string
 
 
 def get_metadata_metadata(url: str) -> dict[str, str]:
@@ -144,8 +162,8 @@ def get_metadata_metadata(url: str) -> dict[str, str]:
         dict[str, str]: dictionary with hash and timestamp
     """
     return {
-        "metadataSHA256": f"{get_metadata_file_hash(url)}",
-        "timeStamp": str(datetime.now()),
+        "metadata_sha256": get_metadata_file_hash(url),
+        "timestamp": str(datetime.now()),
     }
 
 
@@ -159,12 +177,19 @@ def create_metadata_headers_obj(
     Returns:
         dict[str, Union[str, list]]: given data plus hash, timestamp and version
     """
-    return {
+    result = {
         "data": list(
-            map(lambda x: get_metadata_metadata(x["metadataURL"]) | x, metadata_headers)
+            map(lambda x: get_metadata_metadata(
+                x["metadata_url"]) | x, metadata_headers)
         ),
         "version": "1.0",
     }
+    
+    for header in result["data"]:
+        if not header["measurement_author"]:
+            header["measurement_author"] = "Unknown author"
+    
+    return result
 
 
 def create_metadata_headers_file(
@@ -188,7 +213,7 @@ def get_binding_metadata() -> dict[str, str]:
         dict[str, str]: additional metadata object
     """
     return {
-        "timeStamp": str(datetime.now()),
+        "timestamp": str(datetime.now()),
     }
 
 
@@ -203,9 +228,9 @@ def create_metadata_binding(
     Returns:
         dict[str, str]: Base binding data object enriched with metadata
     """
-    if not verify_jwt(metadata_binding_obj["metadataHeaderURL"]):
+    if not verify_jwt(metadata_binding_obj["metadata_header_url"]):
         print(
-            f'Header JWT verification failed for {metadata_binding_obj["metadataHeaderURL"]}')
+            f'Header JWT verification failed for {metadata_binding_obj["metadata_header_url"]}')
     else:
         print("JWT verification passed")
 
@@ -237,13 +262,13 @@ def match_certs_to_jcalgtest_files() -> dict[str, tuple[str, str]]:
         dict[str, tuple[str, str]]: Matches dictionary in format cert_id: filename, fileurl
     """
     from jcalgtest_results_utils import clear_and_tokenize_file_names
-    
+
     def get_cert_data() -> any:
         """Load cert_data from the json file where yhey are stored
 
         Returns:
             any: json cert data
-        """    
+        """
         with open("cert_data.json", "r", encoding='utf-8') as f:
             return json.load(f)
 
@@ -285,20 +310,21 @@ def create_headers_from_matches(matches: dict[str, tuple[str, str]]) -> None:
                 print(f"Header file for {file} already exists, skipping")
                 continue
             header = {
-                "measurementTool": "JCAlgtest",
-                "measurementAuthor": get_author_from_file_name(file),
-                "metadataURL": url,
+                "measurement_tool": "JCAlgtest",
+                "measurement_author": get_author_from_file_name(file),
+                "metadata_url": url,
             }
             create_metadata_headers_file([header], path)
 
 
 def create_bindings_from_matches_and_headers(
-        matches: dict[str, tuple[str, str]]) -> None:
+        matches: dict[str, tuple[str, str]], bindings_file_path: str) -> None:
     """ Creates bindings from the given matches and existing header files
 
     Args:
         matches (dict[str, tuple[str, str]]): Matches of certs to header file names
     """
+    os.makedirs(bindings_file_path, exist_ok=True)
     bindings = {}
     for match in matches:
         for file, _ in matches[match]:
@@ -310,8 +336,8 @@ def create_bindings_from_matches_and_headers(
 
     bindings = [
         {
-            "certificateIDs": ids,
-            "metadataHeaderURL": url,
+            "certificate_ids": ids,
+            "metadata_header_url": url,
         }
         for url, ids in bindings.items()
     ]
@@ -319,7 +345,7 @@ def create_bindings_from_matches_and_headers(
     i = 0
     while len(bindings) >= 0:
         path = os.path.join(
-            JCALGTEST_RESULTS_BINDINGS_PATH,
+            bindings_file_path,
             "Bindings",
             f"jcalgtest_{i}_bindings.json")
         if len(bindings) >= 50:
@@ -332,13 +358,23 @@ def create_bindings_from_matches_and_headers(
             break
         i += 1
 
+def create_demonstration_bindings_and_headers(target_directory):
+    os.makedirs(target_directory, exist_ok=True)
+    header_path = os.path.join(target_directory, "demonstration_data_header.json")
+    binding_path = os.path.join(target_directory, "demonstration_binding.json")
+    
+    for header in metadata_file_headers_base:
+        create_metadata_headers_file(header, header_path)
+        create_binding_file(bindings_data, binding_path)
+
 
 if __name__ == "__main__":
-    if exists("matches.json"):
+    '''if exists("matches.json"):
         with open("matches.json", "r", encoding='utf-8') as f:
             print("Loading matches from cached matches.json")
             matches = json.load(f)
     else:
         matches = match_certs_to_jcalgtest_files()
     create_headers_from_matches(matches)
-    create_bindings_from_matches_and_headers(matches)
+    create_bindings_from_matches_and_headers(matches)'''
+    create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
