@@ -325,7 +325,7 @@ def create_bindings_from_matches_and_headers(
 
     bindings = [
         {
-            "certificate_ids": list(map(lambda x: "nist_" + x if "CC" not in x and "nist" not in x else x ,ids)),
+            "certificate_ids": list(map(lambda x: "NIST-" + x if "CC" not in x and "NIST" not in x else x ,ids)),
             "metadata_header_url": url,
         }
         for url, ids in bindings.items()
@@ -358,12 +358,12 @@ def create_demonstration_bindings_and_headers(target_directory):
 
 
 if __name__ == "__main__":
-    '''if exists("matches.json"):
+    if exists("matches.json"):
         with open("matches.json", "r", encoding='utf-8') as f:
             print("Loading matches from cached matches.json")
             matches = json.load(f)
     else:
         matches = match_certs_to_jcalgtest_files()
     create_headers_from_matches(matches)
-    create_bindings_from_matches_and_headers(matches, JCALGTEST_RESULTS_BINDINGS_PATH)'''
-    create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
+    create_bindings_from_matches_and_headers(matches, JCALGTEST_RESULTS_BINDINGS_PATH)
+    #create_demonstration_bindings_and_headers(PETR_BINDINGS_PATH)
