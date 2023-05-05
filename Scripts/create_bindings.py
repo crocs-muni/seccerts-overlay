@@ -140,22 +140,6 @@ def verify_jwt(url: str) -> bool:
         del header_obj["JWT"]
         new = get_jwt(header_obj)
         return new == old
-    
-def get_base64_preview(url: str) -> str:
-    """ Function to get the base64 encoded representation of an image at a given URL
-
-    Args:
-        url (str): Preview pic location
-
-    Returns:
-        str: Base64 encoded preview image
-    """    
-    response = urllib.request.urlopen(url)
-    file_content = response.read()
-    base64_content = base64.b64encode(file_content)
-    base64_string = base64_content.decode('utf-8')
-    return base64_string
-
 
 def get_metadata_metadata(url: str) -> dict[str, str]:
     """ Get metadata of the given URL file
@@ -341,7 +325,7 @@ def create_bindings_from_matches_and_headers(
 
     bindings = [
         {
-            "certificate_ids": ids,
+            "certificate_ids": list(map(lambda x: "nist_" + x if "CC" not in x and "nist" not in x else x ,ids)),
             "metadata_header_url": url,
         }
         for url, ids in bindings.items()
