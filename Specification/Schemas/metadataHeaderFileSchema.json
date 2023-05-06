@@ -8,28 +8,35 @@
                 {
                     "type": "object",
                     "properties": {
-                        "metadataSHA256": {
+                        "metadata_sha256": {
                             "type": "string"
                         },
-                        "timeStamp": {
+                        "timestamp": {
                             "type": "string"
                         },
-                        "measurementTool": {
+                        "measurement_tool": {
                             "type": "string"
                         },
-                        "measurementAuthor": {
+                        "measurement_author": {
                             "type": "string"
                         },
-                        "metadataURL": {
+                        "metadata_url": {
+                            "type": "string"
+                        },
+                        "metadata_type": {
+                            "type": "string"
+                        },
+                        "metadata_preview": {
                             "type": "string"
                         }
                     },
                     "required": [
-                        "metadataSHA256",
-                        "timeStamp",
-                        "measurementTool",
-                        "measurementAuthor",
-                        "metadataURL"
+                        "metadata_sha256",
+                        "timestamp",
+                        "measurement_tool",
+                        "measurement_author",
+                        "metadata_url",
+                        "metadata_type"
                     ]
                 }
             ]

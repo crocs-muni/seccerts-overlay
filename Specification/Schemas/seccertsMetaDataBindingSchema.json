@@ -8,34 +8,10 @@
                 {
                     "type": "object",
                     "properties": {
-                        "timeStamp": {
+                        "timestamp": {
                             "type": "string"
                         },
-                        "certificateIDs": {
-                            "type": "array",
-                            "items": [
-                                {
-                                    "type": "string"
-                                }
-                            ]
-                        },
-                        "metadataHeaderURL": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "timeStamp",
-                        "certificateIDs",
-                        "metadataHeaderURL"
-                    ]
-                },
-                {
-                    "type": "object",
-                    "properties": {
-                        "timeStamp": {
-                            "type": "string"
-                        },
-                        "certificateIDs": {
+                        "certificate_ids": {
                             "type": "array",
                             "items": [
                                 {
@@ -46,14 +22,14 @@
                                 }
                             ]
                         },
-                        "metadataHeaderURL": {
+                        "metadata_header_url": {
                             "type": "string"
                         }
                     },
                     "required": [
-                        "timeStamp",
-                        "certificateIDs",
-                        "metadataHeaderURL"
+                        "timestamp",
+                        "certificate_ids",
+                        "metadata_header_url"
                     ]
                 }
             ]
