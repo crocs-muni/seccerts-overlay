@@ -2,7 +2,7 @@
     "data": [
         {
             "metadata_sha256": "83eb1145a316b1e3eaf31b17a7663ccb433d30b5a18cbbbfe602e657368f3629",
-            "timestamp": "2023-05-06 00:59:37.813091",
+            "timestamp": "2023-05-10 03:50:58.026207",
             "measurement_tool": "JCAlgtest",
             "measurement_author": "Petr Svenda",
             "metadata_url": "https://raw.githubusercontent.com/crocs-muni/jcalgtest_results/main/javacard/Profiles/results/NXP_J2E145G_ICFabDate_2013_025_ALGSUPPORT__3b_f9_13_00_00_81_31_fe_45_4a_43_4f_50_32_34_32_52_33_a2_(provided_by_PetrS_and_Lukas_Malina).csv",
@@ -10,8 +10,8 @@
             "metadata_preview": "https://www.fi.muni.cz/~xsvenda/jcalgtest/pics/logo.png"
         },
         {
-            "metadata_sha256": "d0e0c9cf05a6419f6b20992e42e5d1c8dc25a03e352065cbe7b07469e2f76cfa",
-            "timestamp": "2023-05-06 00:59:38.228930",
+            "metadata_sha256": "8ad5d3a553c4756e51a284356f60880dfbcbaa5b038a84e4ce5d87bdc76cc181",
+            "timestamp": "2023-05-10 03:50:58.391043",
             "measurement_tool": "JCAlgtest",
             "measurement_author": "Matus Nemec",
             "metadata_url": "https://owncloud.cesnet.cz/index.php/s/Ihhw3BKKzKTaxB9/download?path=%2FCard%2FNXP%20J2E145G%201024b&files=00250496.csv",
@@ -20,7 +20,7 @@
         },
         {
             "metadata_sha256": "aa5f14578bbaaeeb3bd2b0f6f7a47910be1b269058dc81f8b88e694ba481725a",
-            "timestamp": "2023-05-06 00:59:41.199238",
+            "timestamp": "2023-05-10 03:51:05.553031",
             "measurement_tool": "JCAlgtest",
             "measurement_author": "David Komarek",
             "metadata_url": "https://is.muni.cz/th/fa6tq/thesis.pdf",
@@ -29,5 +29,5 @@
         }
     ],
     "version": "1.0",
-    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI4M2ViMTE0NWEzMTZiMWUzZWFmMzFiMTdhNzY2M2NjYjQzM2QzMGI1YTE4Y2JiYmZlNjAyZTY1NzM2OGYzNjI5IiwidGltZXN0YW1wIjoiMjAyMy0wNS0wNiAwMDo1OTozNy44MTMwOTEiLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0ciBTdmVuZGEiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTlhQX0oyRTE0NUdfSUNGYWJEYXRlXzIwMTNfMDI1X0FMR1NVUFBPUlRfXzNiX2Y5XzEzXzAwXzAwXzgxXzMxX2ZlXzQ1XzRhXzQzXzRmXzUwXzMyXzM0XzMyXzUyXzMzX2EyXyhwcm92aWRlZF9ieV9QZXRyU19hbmRfTHVrYXNfTWFsaW5hKS5jc3YiLCJtZXRhZGF0YV90eXBlIjoiSkNBbGdUZXN0IGFsZ29yaXRobSBzdXBwb3J0IiwibWV0YWRhdGFfcHJldmlldyI6Imh0dHBzOi8vd3d3LmZpLm11bmkuY3ovfnhzdmVuZGEvamNhbGd0ZXN0L3BpY3MvbG9nby5wbmcifSx7Im1ldGFkYXRhX3NoYTI1NiI6ImQwZTBjOWNmMDVhNjQxOWY2YjIwOTkyZTQyZTVkMWM4ZGMyNWEwM2UzNTIwNjVjYmU3YjA3NDY5ZTJmNzZjZmEiLCJ0aW1lc3RhbXAiOiIyMDIzLTA1LTA2IDAwOjU5OjM4LjIyODkzMCIsIm1lYXN1cmVtZW50X3Rvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudF9hdXRob3IiOiJNYXR1cyBOZW1lYyIsIm1ldGFkYXRhX3VybCI6Imh0dHBzOi8vb3duY2xvdWQuY2VzbmV0LmN6L2luZGV4LnBocC9zL0loaHczQktLektUYXhCOS9kb3dubG9hZD9wYXRoPSUyRkNhcmQlMkZOWFAlMjBKMkUxNDVHJTIwMTAyNGImZmlsZXM9MDAyNTA0OTYuY3N2IiwibWV0YWRhdGFfdHlwZSI6IlJTQSBrZXkgYW5hbHlzaXMiLCJtZXRhZGF0YV9wcmV2aWV3IjoiaHR0cHM6Ly9vd25jbG91ZC5jZXNuZXQuY3ovaW5kZXgucGhwL3MvSWhodzNCS0t6S1RheEI5L2Rvd25sb2FkP3BhdGg9JTJGQ2FyZCUyRk5YUCUyMEoyRTE0NUclMjAxMDI0YiZmaWxlcz1ueHBqY29wM19qMmUxNDVnLlBORyJ9LHsibWV0YWRhdGFfc2hhMjU2IjoiYWE1ZjE0NTc4YmJhYWVlYjNiZDJiMGY2ZjdhNDc5MTBiZTFiMjY5MDU4ZGM4MWY4Yjg4ZTY5NGJhNDgxNzI1YSIsInRpbWVzdGFtcCI6IjIwMjMtMDUtMDYgMDA6NTk6NDEuMTk5MjM4IiwibWVhc3VyZW1lbnRfdG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50X2F1dGhvciI6IkRhdmlkIEtvbWFyZWsiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL2lzLm11bmkuY3ovdGgvZmE2dHEvdGhlc2lzLnBkZiIsIm1ldGFkYXRhX3R5cGUiOiJSU0EgcG93ZXJ0cmFjZSIsIm1ldGFkYXRhX3ByZXZpZXciOiJodHRwczovL2RyaXZlLmdvb2dsZS5jb20vdWM_aWQ9MXBqRmFsd25oeFdBRTBFZ1lyWkoydjFmVEhWNmZuU1VpIn1dLCJ2ZXJzaW9uIjoiMS4wIn0.Xu0CsF0gSTz81Jvvya8nylnbcVXsQcdcN4e69NOoZ8E"
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJtZXRhZGF0YV9zaGEyNTYiOiI4M2ViMTE0NWEzMTZiMWUzZWFmMzFiMTdhNzY2M2NjYjQzM2QzMGI1YTE4Y2JiYmZlNjAyZTY1NzM2OGYzNjI5IiwidGltZXN0YW1wIjoiMjAyMy0wNS0xMCAwMzo1MDo1OC4wMjYyMDciLCJtZWFzdXJlbWVudF90b29sIjoiSkNBbGd0ZXN0IiwibWVhc3VyZW1lbnRfYXV0aG9yIjoiUGV0ciBTdmVuZGEiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3JvY3MtbXVuaS9qY2FsZ3Rlc3RfcmVzdWx0cy9tYWluL2phdmFjYXJkL1Byb2ZpbGVzL3Jlc3VsdHMvTlhQX0oyRTE0NUdfSUNGYWJEYXRlXzIwMTNfMDI1X0FMR1NVUFBPUlRfXzNiX2Y5XzEzXzAwXzAwXzgxXzMxX2ZlXzQ1XzRhXzQzXzRmXzUwXzMyXzM0XzMyXzUyXzMzX2EyXyhwcm92aWRlZF9ieV9QZXRyU19hbmRfTHVrYXNfTWFsaW5hKS5jc3YiLCJtZXRhZGF0YV90eXBlIjoiSkNBbGdUZXN0IGFsZ29yaXRobSBzdXBwb3J0IiwibWV0YWRhdGFfcHJldmlldyI6Imh0dHBzOi8vd3d3LmZpLm11bmkuY3ovfnhzdmVuZGEvamNhbGd0ZXN0L3BpY3MvbG9nby5wbmcifSx7Im1ldGFkYXRhX3NoYTI1NiI6IjhhZDVkM2E1NTNjNDc1NmU1MWEyODQzNTZmNjA4ODBkZmJjYmFhNWIwMzhhODRlNGNlNWQ4N2JkYzc2Y2MxODEiLCJ0aW1lc3RhbXAiOiIyMDIzLTA1LTEwIDAzOjUwOjU4LjM5MTA0MyIsIm1lYXN1cmVtZW50X3Rvb2wiOiJKQ0FsZ3Rlc3QiLCJtZWFzdXJlbWVudF9hdXRob3IiOiJNYXR1cyBOZW1lYyIsIm1ldGFkYXRhX3VybCI6Imh0dHBzOi8vb3duY2xvdWQuY2VzbmV0LmN6L2luZGV4LnBocC9zL0loaHczQktLektUYXhCOS9kb3dubG9hZD9wYXRoPSUyRkNhcmQlMkZOWFAlMjBKMkUxNDVHJTIwMTAyNGImZmlsZXM9MDAyNTA0OTYuY3N2IiwibWV0YWRhdGFfdHlwZSI6IlJTQSBrZXkgYW5hbHlzaXMiLCJtZXRhZGF0YV9wcmV2aWV3IjoiaHR0cHM6Ly9vd25jbG91ZC5jZXNuZXQuY3ovaW5kZXgucGhwL3MvSWhodzNCS0t6S1RheEI5L2Rvd25sb2FkP3BhdGg9JTJGQ2FyZCUyRk5YUCUyMEoyRTE0NUclMjAxMDI0YiZmaWxlcz1ueHBqY29wM19qMmUxNDVnLlBORyJ9LHsibWV0YWRhdGFfc2hhMjU2IjoiYWE1ZjE0NTc4YmJhYWVlYjNiZDJiMGY2ZjdhNDc5MTBiZTFiMjY5MDU4ZGM4MWY4Yjg4ZTY5NGJhNDgxNzI1YSIsInRpbWVzdGFtcCI6IjIwMjMtMDUtMTAgMDM6NTE6MDUuNTUzMDMxIiwibWVhc3VyZW1lbnRfdG9vbCI6IkpDQWxndGVzdCIsIm1lYXN1cmVtZW50X2F1dGhvciI6IkRhdmlkIEtvbWFyZWsiLCJtZXRhZGF0YV91cmwiOiJodHRwczovL2lzLm11bmkuY3ovdGgvZmE2dHEvdGhlc2lzLnBkZiIsIm1ldGFkYXRhX3R5cGUiOiJSU0EgcG93ZXJ0cmFjZSIsIm1ldGFkYXRhX3ByZXZpZXciOiJodHRwczovL2RyaXZlLmdvb2dsZS5jb20vdWM_aWQ9MXBqRmFsd25oeFdBRTBFZ1lyWkoydjFmVEhWNmZuU1VpIn1dLCJ2ZXJzaW9uIjoiMS4wIn0.04-maIFzX5VyCHR0SWJ4JMzNDWNi0xRp52eY0f6wEkg"
 }

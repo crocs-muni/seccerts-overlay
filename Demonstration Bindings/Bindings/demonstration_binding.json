@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "timestamp": "2023-05-06 00:59:41.864328",
+            "timestamp": "2023-05-10 03:51:06.216959",
             "certificate_ids": [
                 "NIST-2247",
                 "NSCIB-CC-13-37760-CR2"
@@ -11,5 +11,5 @@
     ],
     "author": "CROCS",
     "version": "1.0",
-    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJ0aW1lc3RhbXAiOiIyMDIzLTA1LTA2IDAwOjU5OjQxLjg2NDMyOCIsImNlcnRpZmljYXRlX2lkcyI6WyJOSVNULTIyNDciLCJOU0NJQi1DQy0xMy0zNzc2MC1DUjIiXSwibWV0YWRhdGFfaGVhZGVyX3VybCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL3NlY2NlcnRzLW92ZXJsYXkvbWFpbi9EZW1vbnN0cmF0aW9uJTIwQmluZGluZ3MvSGVhZGVycy9kZW1vbnN0cmF0aW9uX2RhdGFfaGVhZGVyLmpzb24ifV0sImF1dGhvciI6IkNST0NTIiwidmVyc2lvbiI6IjEuMCJ9.tuYHblhtsYT9IV5gDWwiJeoSov-PPJZ-8DisWL0FVw8"
+    "JWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJ0aW1lc3RhbXAiOiIyMDIzLTA1LTEwIDAzOjUxOjA2LjIxNjk1OSIsImNlcnRpZmljYXRlX2lkcyI6WyJOSVNULTIyNDciLCJOU0NJQi1DQy0xMy0zNzc2MC1DUjIiXSwibWV0YWRhdGFfaGVhZGVyX3VybCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jcm9jcy1tdW5pL3NlY2NlcnRzLW92ZXJsYXkvbWFpbi9EZW1vbnN0cmF0aW9uJTIwQmluZGluZ3MvSGVhZGVycy9kZW1vbnN0cmF0aW9uX2RhdGFfaGVhZGVyLmpzb24ifV0sImF1dGhvciI6IkNST0NTIiwidmVyc2lvbiI6IjEuMCJ9.ScUhihOsuC5qKDWzUAZfYFRea_hnTX0SFncaHqe6bSs"
 }
