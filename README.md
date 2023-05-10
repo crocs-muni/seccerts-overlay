@@ -16,7 +16,7 @@ Demonstration bindings however are relevant bindings, linking certificates with 
 
 ## Specification
 
-In the specification directory you can find a thorough description of the bindings file and headers file formats. The specification includes json schema of those formats, high level diagram of the architecture and a discussion about various aspects of sec-certs metadata layer.
+In the specification directory you can find a JSON schemas of the bindings file and headers file formats and a high level diagram of the architecture. 
 
 ## Scripts
 
